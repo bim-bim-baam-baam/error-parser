@@ -1,12 +1,14 @@
 import requests
 from bs4 import BeautifulSoup
 
+# === Настройки ===
 base_url = "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/"
 error_keywords = ["error", "fatal", "failed", "exception", "critical", "errors", "fatals", "exceptions", "criticals"]
 output_file = "errors.txt"
-max_links = 10
-
+max_links = 2
+RANGE = 4  # Количество строк до и после найденной строки
 split_chars = " \t\n\r\f\v.,:;!?'\"()[]{}<>|\\/="
+# ==================
 
 def split_line(line):
     """Разбивает строку по символам из split_chars"""
@@ -32,27 +34,32 @@ def get_links(url):
         if a_tag and a_tag.get("href") != "..":
             link = base_url + a_tag["href"]
             links.append((a_tag["href"], link))
-    # return links[:max_links]
-    return links
+    return links[:max_links]
+
 def parse_log(href, url):
-    """Парсит лог по ссылке и извлекает строки с ошибками"""
+    """Парсит лог по ссылке и извлекает блоки строк с ошибками"""
     response = requests.get(url)
-    error_lines = []
-    for line in response.text.splitlines():
-        # Разбиваем строку с помощью split_line
+    lines = response.text.splitlines()
+    error_blocks = []
+
+    for index, line in enumerate(lines):
         words = list(split_line(line.lower()))
         if any(keyword in words for keyword in error_keywords):
-            error_lines.append(f"{href}: {line}")
-    return error_lines
+            start = max(0, index - RANGE)
+            end = min(len(lines), index + RANGE + 1)
+            block = "\n".join(lines[start:end])
+            error_blocks.append(f"============[ PACKAGE: {href} ]============\n{block}\n\n\n")
+
+    return error_blocks
 
 def main():
     links = get_links(base_url)
     with open(output_file, "w", encoding="utf-8") as f:
         for href, link in links:
             print(f"Сканирую: {link}")
-            error_lines = parse_log(href, link)
-            if error_lines:
-                f.write("\n".join(error_lines) + "\n\n")
+            error_blocks = parse_log(href, link)
+            if error_blocks:
+                f.write("\n".join(error_blocks) + "\n\n")
     print(f"Готово! Все ошибки записаны в файл {output_file}.")
 
 if __name__ == "__main__":
