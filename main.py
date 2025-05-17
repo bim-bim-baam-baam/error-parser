@@ -1,21 +1,22 @@
 import requests
+import json
 from bs4 import BeautifulSoup
 
 # === Настройки ===
 base_url = "https://git.altlinux.org/beehive/logs/Sisyphus/i586/latest/error/"
 error_keywords = ["error", "fatal", "failed", "exception", "critical", "errors", "fatals", "exceptions", "criticals"]
-output_file = "errors"
-max_links = 100               # Сколько ссылок максимально забираем
-RANGE_UP = 1                  # Количество строк ДО найденной строки
-RANGE_DOWN = 3                # Количество строк ПОСЛЕ найденной строки
-MAX_LOGS_IN_FILE = 10         # Максимальное количество обработанных пакетов на файл
-MAX_ERRORS_PER_LINK = 5       # Максимальное количество ошибок, записанных с одного лога
+output_file = "errors.json"
+max_links = 10000
+RANGE_UP = 1
+RANGE_DOWN = 3
+MAX_ERRORS_PER_LINK = 5
 split_chars = " \t\n\r\f\v.,:;!?'\"()[]{}<>|\\/="
+
+
 # ==================
 
 
 def split_line(line):
-    """Разбивает строку по символам из split_chars"""
     temp_word = ""
     for char in line:
         if char in split_chars:
@@ -29,7 +30,6 @@ def split_line(line):
 
 
 def get_links(url):
-    """Получает все ссылки на логи с главной страницы"""
     response = requests.get(url)
     soup = BeautifulSoup(response.text, "html.parser")
     links = []
@@ -43,7 +43,6 @@ def get_links(url):
 
 
 def parse_log(href, url):
-    """Парсит лог по ссылке и извлекает блоки строк с ошибками"""
     response = requests.get(url)
     lines = response.text.splitlines()
     error_blocks = []
@@ -51,7 +50,7 @@ def parse_log(href, url):
     error_count = 0
     for index, line in enumerate(lines):
         if error_count >= MAX_ERRORS_PER_LINK:
-            print(f"Достигнут максимум ошибок ({MAX_ERRORS_PER_LINK}) для {href}. Переход к следующему пакету.")
+            print(f"Достигнут максимум ошибок ({MAX_ERRORS_PER_LINK}) для {href}.")
             break
 
         words = list(split_line(line.lower()))
@@ -59,36 +58,34 @@ def parse_log(href, url):
             start = max(0, index - RANGE_UP)
             end = min(len(lines), index + RANGE_DOWN + 1)
             block = "\n".join(lines[start:end])
-            error_blocks.append(f"============[ PACKAGE: {href} ]============\n{block}\n\n\n")
+            error_blocks.append(block)
             error_count += 1
 
-    return error_blocks
+    if error_blocks:
+        joined_errors = "\n\n".join(error_blocks)
+        return {
+            "package": href,
+            "errors": joined_errors
+        }
+    return None
 
 
 def main():
     links = get_links(base_url)
-    file_index = 1
-    current_count = 0
-    output_filename = f"{output_file}_part{file_index}.txt"
-    f = open(output_filename, "w", encoding="utf-8")
+    all_errors = []
+    print(len(links))
 
     for href, link in links:
-        if current_count >= MAX_LOGS_IN_FILE:
-            f.close()
-            file_index += 1
-            output_filename = f"{output_file}_part{file_index}.txt"
-            f = open(output_filename, "w", encoding="utf-8")
-            current_count = 0
-            print(f"Создан новый файл: {output_filename}")
-
         print(f"Сканирую: {link}")
-        error_blocks = parse_log(href, link)
-        if error_blocks:
-            f.write("\n".join(error_blocks) + "\n\n")
-            current_count += 1
+        error_entry = parse_log(href, link)
+        if error_entry:
+            all_errors.append(error_entry)
 
-    f.close()
-    print(f"Готово! Все ошибки записаны в файлы errors_partX.txt.")
+    with open(output_file, "w", encoding="utf-8") as f:
+        json.dump(all_errors, f, indent=2, ensure_ascii=False)
+
+    print(f"Готово! Все ошибки сохранены в файл {output_file}.")
+    print(f"Количество пакетов с ошибками:{len(all_errors)}")
 
 
 if __name__ == "__main__":
