@@ -33,7 +33,7 @@ def get_links(url):
             links.append((a_tag["href"], link))
     return links[:max_links]
 
-def parse_log(href, url):
+def parse_log(href, url, request_url):
     response = requests.get(url)
     response.raise_for_status()
     lines = response.text.splitlines()
@@ -54,6 +54,7 @@ def parse_log(href, url):
 
     if error_blocks:
         return {
+            "link": request_url + href,
             "package": href,
             "errors": "\n\n".join(error_blocks)
         }

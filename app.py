@@ -18,7 +18,7 @@ def parse_logs(request: ParseRequest):
         all_errors = []
 
         for href, link in links:
-            error_entry = parse_log(href, link)
+            error_entry = parse_log(href, link, request.url)
             if error_entry:
                 all_errors.append(error_entry)
 
