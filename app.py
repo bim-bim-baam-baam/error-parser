@@ -22,7 +22,7 @@ def parse_logs(request: ParseRequest):
             if error_entry:
                 all_errors.append(error_entry)
 
-        return {"result": all_errors}
+        return all_errors
     except requests.RequestException as e:
         raise HTTPException(status_code=400, detail=f"Ошибка запроса: {str(e)}")
     except Exception as e:
