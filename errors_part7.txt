@@ -1,0 +1,406 @@
+============[ PACKAGE: indexhtml-common-0.6.4-alt1 ]============
+Problem opening /proc/meminfo
+CMake Error at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 has been removed from CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+
+
+
+============[ PACKAGE: indexhtml-common-0.6.4-alt1 ]============
+
+-- Configuring incomplete, errors occurred!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.68360 (%build)
+
+
+
+
+
+============[ PACKAGE: indexhtml-common-0.6.4-alt1 ]============
+-- Configuring incomplete, errors occurred!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.68360 (%build)
+
+
+RPM build errors:
+
+
+
+============[ PACKAGE: indexhtml-common-0.6.4-alt1 ]============
+
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.68360 (%build)
+Command exited with non-zero status 1
+0.01user 0.04system 0:00.06elapsed 105%CPU (0avgtext+0avgdata 15660maxresident)k
+
+
+
+============[ PACKAGE: indexhtml-common-0.6.4-alt1 ]============
+0inputs+0outputs (0major+6687minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `indexhtml-common-0.6.4-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+3.53user 2.79system 0:10.12elapsed 62%CPU (0avgtext+0avgdata 133332maxresident)k
+0inputs+0outputs (0major+266322minor)pagefaults 0swaps
+
+
+
+
+============[ PACKAGE: indilib-1.9.0-alt2 ]============
+Problem opening /proc/meminfo
+CMake Error at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 has been removed from CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+
+
+
+============[ PACKAGE: indilib-1.9.0-alt2 ]============
+
+-- Configuring incomplete, errors occurred!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.67098 (%build)
+
+
+
+
+
+============[ PACKAGE: indilib-1.9.0-alt2 ]============
+-- Configuring incomplete, errors occurred!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.67098 (%build)
+
+
+RPM build errors:
+
+
+
+============[ PACKAGE: indilib-1.9.0-alt2 ]============
+
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.67098 (%build)
+Command exited with non-zero status 1
+0.10user 0.07system 0:00.18elapsed 101%CPU (0avgtext+0avgdata 15656maxresident)k
+
+
+
+============[ PACKAGE: indilib-1.9.0-alt2 ]============
+0inputs+0outputs (0major+9449minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `indilib-1.9.0-alt2.src.rpm' failed.
+Command exited with non-zero status 1
+3.71user 2.80system 0:14.20elapsed 45%CPU (0avgtext+0avgdata 132300maxresident)k
+2896inputs+0outputs (0major+227137minor)pagefaults 0swaps
+
+
+
+
+============[ PACKAGE: innoextract-1.9-alt1.1 ]============
+/usr/bin/cmake -DINPUT=/usr/src/RPM/BUILD/innoextract-1.9/src/release.cpp.in -DOUTPUT=/usr/src/RPM/BUILD/innoextract-1.9/release.cpp "-DVERSION_SOURCES=VERSION;/usr/src/RPM/BUILD/innoextract-1.9/VERSION;LICENSE;/usr/src/RPM/BUILD/innoextract-1.9/LICENSE" -DGIT_DIR= -DGIT_COMMAND= -P /usr/src/RPM/BUILD/innoextract-1.9/cmake/VersionScript.cmake
+CMake Error at cmake/VersionScript.cmake:20 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 has been removed from CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+
+
+
+============[ PACKAGE: innoextract-1.9-alt1.1 ]============
+
+make[2]: *** [CMakeFiles/innoextract.dir/build.make:76: release.cpp] Error 1
+make[2]: Leaving directory '/usr/src/RPM/BUILD/innoextract-1.9'
+make[1]: *** [CMakeFiles/Makefile2:121: CMakeFiles/innoextract.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+
+
+
+============[ PACKAGE: innoextract-1.9-alt1.1 ]============
+make[2]: Leaving directory '/usr/src/RPM/BUILD/innoextract-1.9'
+make[1]: *** [CMakeFiles/Makefile2:121: CMakeFiles/innoextract.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make[2]: Entering directory '/usr/src/RPM/BUILD/innoextract-1.9'
+/usr/bin/cmake -DINPUT=/usr/src/RPM/BUILD/innoextract-1.9/doc/innoextract.1.in -DOUTPUT=/usr/src/RPM/BUILD/innoextract-1.9/innoextract.1 "-DVERSION_SOURCES=VERSION;/usr/src/RPM/BUILD/innoextract-1.9/VERSION;CHANGELOG;/usr/src/RPM/BUILD/innoextract-1.9/CHANGELOG" -DGIT_DIR= -DGIT_COMMAND= -P /usr/src/RPM/BUILD/innoextract-1.9/cmake/VersionScript.cmake
+
+
+
+============[ PACKAGE: innoextract-1.9-alt1.1 ]============
+/usr/bin/cmake -DINPUT=/usr/src/RPM/BUILD/innoextract-1.9/doc/innoextract.1.in -DOUTPUT=/usr/src/RPM/BUILD/innoextract-1.9/innoextract.1 "-DVERSION_SOURCES=VERSION;/usr/src/RPM/BUILD/innoextract-1.9/VERSION;CHANGELOG;/usr/src/RPM/BUILD/innoextract-1.9/CHANGELOG" -DGIT_DIR= -DGIT_COMMAND= -P /usr/src/RPM/BUILD/innoextract-1.9/cmake/VersionScript.cmake
+CMake Error at cmake/VersionScript.cmake:20 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 has been removed from CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+
+
+
+============[ PACKAGE: innoextract-1.9-alt1.1 ]============
+
+make[2]: *** [CMakeFiles/manpage.dir/build.make:75: innoextract.1] Error 1
+make[2]: Leaving directory '/usr/src/RPM/BUILD/innoextract-1.9'
+make[1]: *** [CMakeFiles/Makefile2:90: CMakeFiles/manpage.dir/all] Error 2
+make: *** [Makefile:136: all] Error 2
+
+
+
+
+============[ PACKAGE: iptables-1.8.10-alt1 ]============
+<13>May 10 09:53:33 rpmi: nftables-1:1.1.3-alt1 sisyphus+382309.100.1.1 1745324433 installed
+error reading information on service nftables: No such file or directory
+<86>May 10 09:53:33 groupadd[2331774]: group added to /etc/group: name=iputils, GID=989
+<86>May 10 09:53:33 groupadd[2331774]: group added to /etc/gshadow: name=iputils
+<86>May 10 09:53:33 groupadd[2331774]: new group: name=iputils, GID=989
+
+
+
+============[ PACKAGE: iptables-1.8.10-alt1 ]============
+# XPASS: 0
+# ERROR: 0
+
+.. contents:: :depth: 2
+
+
+
+
+============[ PACKAGE: iptables-1.8.10-alt1 ]============
+
+extensions/libxt_recent.t: ERROR: line 7 (should fail: iptables -A INPUT -t filter -m recent --rcheck --hitcount 999 --name foo --mask 255.255.255.255 --rsource)
+extensions/libxt_recent.t: ERROR: line 7 (should fail: iptables -A INPUT -m recent --rcheck --hitcount 999 --name foo --mask 255.255.255.255 --rsource)
+extensions/libxt_recent.t: ERROR: line 7 (should fail: iptables -A INPUT -t filter -m recent --rcheck --hitcount 999 --name foo --mask 255.255.255.255 --rsource)
+extensions/libxt_recent.t: ERROR: line 7 (should fail: iptables -A INPUT -m recent --rcheck --hitcount 999 --name foo --mask 255.255.255.255 --rsource)
+
+
+
+============[ PACKAGE: iptables-1.8.10-alt1 ]============
+extensions/libxt_recent.t: ERROR: line 7 (should fail: iptables -A INPUT -t filter -m recent --rcheck --hitcount 999 --name foo --mask 255.255.255.255 --rsource)
+extensions/libxt_recent.t: ERROR: line 7 (should fail: iptables -A INPUT -m recent --rcheck --hitcount 999 --name foo --mask 255.255.255.255 --rsource)
+extensions/libxt_recent.t: ERROR: line 7 (should fail: iptables -A INPUT -t filter -m recent --rcheck --hitcount 999 --name foo --mask 255.255.255.255 --rsource)
+extensions/libxt_recent.t: ERROR: line 7 (should fail: iptables -A INPUT -m recent --rcheck --hitcount 999 --name foo --mask 255.255.255.255 --rsource)
+extensions/iptables.t: OK
+
+
+
+============[ PACKAGE: iptables-1.8.10-alt1 ]============
+extensions/libxt_recent.t: ERROR: line 7 (should fail: iptables -A INPUT -m recent --rcheck --hitcount 999 --name foo --mask 255.255.255.255 --rsource)
+extensions/libxt_recent.t: ERROR: line 7 (should fail: iptables -A INPUT -t filter -m recent --rcheck --hitcount 999 --name foo --mask 255.255.255.255 --rsource)
+extensions/libxt_recent.t: ERROR: line 7 (should fail: iptables -A INPUT -m recent --rcheck --hitcount 999 --name foo --mask 255.255.255.255 --rsource)
+extensions/iptables.t: OK
+extensions/libip6t_DNAT.t: OK
+
+
+
+
+============[ PACKAGE: java-1.8.0-openjdk-0%3A1.8.0.452.b09-alt1 ]============
+/usr/src/in/srpm/java-1.8.0-openjdk-1.8.0.452.b09-alt1.src.rpm: license not found in '/usr/share/license' directory: 2.0
+/usr/src/in/srpm/java-1.8.0-openjdk-1.8.0.452.b09-alt1.src.rpm: exception not found in '/usr/share/license-exception' directory: advertising
+/usr/src/in/srpm/java-1.8.0-openjdk-1.8.0.452.b09-alt1.src.rpm: license not found in '/usr/share/license' directory: GPL+
+/usr/src/in/srpm/java-1.8.0-openjdk-1.8.0.452.b09-alt1.src.rpm: exception not found in '/usr/share/license-exception' directory: exceptions
+/usr/src/in/srpm/java-1.8.0-openjdk-1.8.0.452.b09-alt1.src.rpm: license not found in '/usr/share/license' directory: MPLv2.0
+
+
+
+============[ PACKAGE: java-1.8.0-openjdk-0%3A1.8.0.452.b09-alt1 ]============
+/usr/src/in/srpm/java-1.8.0-openjdk-1.8.0.452.b09-alt1.src.rpm: license not found in '/usr/share/license' directory: GPL+
+/usr/src/in/srpm/java-1.8.0-openjdk-1.8.0.452.b09-alt1.src.rpm: exception not found in '/usr/share/license-exception' directory: exceptions
+/usr/src/in/srpm/java-1.8.0-openjdk-1.8.0.452.b09-alt1.src.rpm: license not found in '/usr/share/license' directory: MPLv2.0
+/usr/src/in/srpm/java-1.8.0-openjdk-1.8.0.452.b09-alt1.src.rpm: license not found in '/usr/share/license' directory: Public
+/usr/src/in/srpm/java-1.8.0-openjdk-1.8.0.452.b09-alt1.src.rpm: license not found in '/usr/share/license' directory: Domain
+
+
+
+============[ PACKAGE: java-1.8.0-openjdk-0%3A1.8.0.452.b09-alt1 ]============
+# published by the Free Software Foundation.  Oracle designates this
+# particular file as subject to the "Classpath" exception as provided
+# by Oracle in the LICENSE file that accompanied this code.
+#
+# This code is distributed in the hope that it will be useful, but WITHOUT
+
+
+
+============[ PACKAGE: java-1.8.0-openjdk-0%3A1.8.0.452.b09-alt1 ]============
+# published by the Free Software Foundation.  Oracle designates this
+# particular file as subject to the "Classpath" exception as provided
+# by Oracle in the LICENSE file that accompanied this code.
+#
+# This code is distributed in the hope that it will be useful, but WITHOUT
+
+
+
+============[ PACKAGE: java-1.8.0-openjdk-0%3A1.8.0.452.b09-alt1 ]============
+gmake: *** unknown output-sync type 'l'.  Stop.
+gmake[5]: *** [/usr/src/RPM/BUILD/java-1.8.0-openjdk-1.8.0.452.b09-0.i586/jdk8u452-b09/hotspot/make/linux/makefiles/top.make:91: ad_stuff] Error 2
+gmake[5]: Leaving directory '/usr/src/RPM/BUILD/java-1.8.0-openjdk-1.8.0.452.b09-0.i586/bootbuild/jdk8.build/hotspot/linux_i486_compiler2/product'
+gmake[4]: *** [/usr/src/RPM/BUILD/java-1.8.0-openjdk-1.8.0.452.b09-0.i586/jdk8u452-b09/hotspot/make/linux/Makefile:284: product] Error 2
+gmake[4]: Leaving directory '/usr/src/RPM/BUILD/java-1.8.0-openjdk-1.8.0.452.b09-0.i586/bootbuild/jdk8.build/hotspot'
+
+
+
+
+============[ PACKAGE: java3d-1.5.2-alt6_15jpp8 ]============
+E: Couldn't find package jogl
+hsh-install: Failed to calculate package file list.
+hsh-install: Failed to generate package file list.
+Command exited with non-zero status 1
+3.16user 2.25system 0:07.64elapsed 70%CPU (0avgtext+0avgdata 133344maxresident)k
+
+
+
+============[ PACKAGE: java3d-1.5.2-alt6_15jpp8 ]============
+hsh-install: Failed to calculate package file list.
+hsh-install: Failed to generate package file list.
+Command exited with non-zero status 1
+3.16user 2.25system 0:07.64elapsed 70%CPU (0avgtext+0avgdata 133344maxresident)k
+24inputs+0outputs (0major+146477minor)pagefaults 0swaps
+
+
+
+
+============[ PACKAGE: jmc-core-7.1.1-alt1_5.1jpp11 ]============
+[INFO] -------------------------------------------------------
+Error: Could not find or load main class ${surefireArgLine}
+Caused by: java.lang.ClassNotFoundException: ${surefireArgLine}
+[INFO] 
+[INFO] Results:
+
+
+
+============[ PACKAGE: jmc-core-7.1.1-alt1_5.1jpp11 ]============
+[INFO] 
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+
+
+
+============[ PACKAGE: jmc-core-7.1.1-alt1_5.1jpp11 ]============
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:3.2.2:test (default-test) on project common.test: 
+[ERROR] 
+[ERROR] Please refer to /usr/src/RPM/BUILD/jmc7-63ec7d0ee8d9/core/tests/org.openjdk.jmc.common.test/target/surefire-reports for the individual test results.
+[ERROR] Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+
+
+
+============[ PACKAGE: jmc-core-7.1.1-alt1_5.1jpp11 ]============
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:3.2.2:test (default-test) on project common.test: 
+[ERROR] 
+[ERROR] Please refer to /usr/src/RPM/BUILD/jmc7-63ec7d0ee8d9/core/tests/org.openjdk.jmc.common.test/target/surefire-reports for the individual test results.
+[ERROR] Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[ERROR] The forked VM terminated without properly saying goodbye. VM crash or System.exit called?
+
+
+
+============[ PACKAGE: jmc-core-7.1.1-alt1_5.1jpp11 ]============
+[ERROR] 
+[ERROR] Please refer to /usr/src/RPM/BUILD/jmc7-63ec7d0ee8d9/core/tests/org.openjdk.jmc.common.test/target/surefire-reports for the individual test results.
+[ERROR] Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[ERROR] The forked VM terminated without properly saying goodbye. VM crash or System.exit called?
+[ERROR] Command was /bin/sh -c cd '/usr/src/RPM/BUILD/jmc7-63ec7d0ee8d9/core/tests/org.openjdk.jmc.common.test' && '/usr/lib/jvm/java-11-openjdk-11.0.27.0.6-0.i586/bin/java' '-Duser.language=en' '-Duser.region=nl' '-Djava.locale.providers=COMPAT' '${surefireArgLine}' '-jar' '/usr/src/RPM/BUILD/jmc7-63ec7d0ee8d9/core/tests/org.openjdk.jmc.common.test/target/surefire/surefirebooter-20250510095444271_3.jar' '/usr/src/RPM/BUILD/jmc7-63ec7d0ee8d9/core/tests/org.openjdk.jmc.common.test/target/surefire' '2025-05-10T09-54-44_214-jvmRun1' 'surefire-20250510095444271_1tmp' 'surefire_0-20250510095444271_2tmp'
+
+
+
+
+============[ PACKAGE: jogl2-2.3.2-alt8_9jpp8 ]============
+E: Couldn't find package eclipse-swt
+hsh-install: Failed to calculate package file list.
+hsh-install: Failed to generate package file list.
+Command exited with non-zero status 1
+3.32user 2.20system 0:07.58elapsed 72%CPU (0avgtext+0avgdata 132420maxresident)k
+
+
+
+============[ PACKAGE: jogl2-2.3.2-alt8_9jpp8 ]============
+hsh-install: Failed to calculate package file list.
+hsh-install: Failed to generate package file list.
+Command exited with non-zero status 1
+3.32user 2.20system 0:07.58elapsed 72%CPU (0avgtext+0avgdata 132420maxresident)k
+0inputs+0outputs (0major+147244minor)pagefaults 0swaps
+
+
+
+
+============[ PACKAGE: jsoncpp19-1.8.4-alt6 ]============
+Problem opening /proc/meminfo
+CMake Error at CMakeLists.txt:3 (CMAKE_MINIMUM_REQUIRED):
+  Compatibility with CMake < 3.5 has been removed from CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+
+
+
+============[ PACKAGE: jsoncpp19-1.8.4-alt6 ]============
+
+-- Configuring incomplete, errors occurred!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.49593 (%build)
+
+
+
+
+
+============[ PACKAGE: jsoncpp19-1.8.4-alt6 ]============
+-- Configuring incomplete, errors occurred!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.49593 (%build)
+
+
+RPM build errors:
+
+
+
+============[ PACKAGE: jsoncpp19-1.8.4-alt6 ]============
+
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.49593 (%build)
+Command exited with non-zero status 1
+0.06user 0.07system 0:00.14elapsed 102%CPU (0avgtext+0avgdata 16776maxresident)k
+
+
+
+============[ PACKAGE: jsoncpp19-1.8.4-alt6 ]============
+0inputs+0outputs (0major+10914minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `jsoncpp19-1.8.4-alt6.src.rpm' failed.
+Command exited with non-zero status 1
+3.82user 2.88system 0:20.52elapsed 32%CPU (0avgtext+0avgdata 133520maxresident)k
+2240inputs+0outputs (0major+239692minor)pagefaults 0swaps
+
+
+
+
+============[ PACKAGE: jsonxx-20140722-alt1 ]============
+Problem opening /proc/meminfo
+CMake Error at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 has been removed from CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+
+
+
+============[ PACKAGE: jsonxx-20140722-alt1 ]============
+
+-- Configuring incomplete, errors occurred!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.34878 (%build)
+
+
+
+
+
+============[ PACKAGE: jsonxx-20140722-alt1 ]============
+-- Configuring incomplete, errors occurred!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.34878 (%build)
+
+
+RPM build errors:
+
+
+
+============[ PACKAGE: jsonxx-20140722-alt1 ]============
+
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.34878 (%build)
+Command exited with non-zero status 1
+0.01user 0.04system 0:00.05elapsed 103%CPU (0avgtext+0avgdata 15592maxresident)k
+
+
+
+============[ PACKAGE: jsonxx-20140722-alt1 ]============
+0inputs+0outputs (0major+6709minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `jsonxx-20140722-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+3.19user 2.65system 0:10.79elapsed 54%CPU (0avgtext+0avgdata 133896maxresident)k
+0inputs+0outputs (0major+208769minor)pagefaults 0swaps
+
+
+
+

@@ -1,0 +1,460 @@
+============[ PACKAGE: lftp-4.9.2-alt1 ]============
+checking whether mbrtowc works on empty input... yes
+checking whether the C locale is free of encoding errors... no
+checking whether mbrtowc handles incomplete characters... (cached) yes
+checking whether mbrtowc works as well as mbtowc... (cached) yes
+checking whether mbrtowc handles incomplete characters... (cached) yes
+
+
+
+============[ PACKAGE: lftp-4.9.2-alt1 ]============
+In file included from md5.c:22:
+./config.h:2545:11: fatal error: trio.h: No such file or directory
+ 2545 | # include "trio.h"
+      |           ^~~~~~~~
+compilation terminated.
+
+
+
+============[ PACKAGE: lftp-4.9.2-alt1 ]============
+compilation terminated.
+make[4]: *** [Makefile:2416: md5.lo] Error 1
+make[4]: Leaving directory '/usr/src/RPM/BUILD/lftp-4.9.2/lib'
+make[4]: *** Waiting for unfinished jobs....
+make[4]: Entering directory '/usr/src/RPM/BUILD/lftp-4.9.2/lib'
+
+
+
+============[ PACKAGE: lftp-4.9.2-alt1 ]============
+In file included from basename-lgpl.c:19:
+./config.h:2545:11: fatal error: trio.h: No such file or directory
+ 2545 | # include "trio.h"
+      |           ^~~~~~~~
+compilation terminated.
+
+
+
+============[ PACKAGE: lftp-4.9.2-alt1 ]============
+compilation terminated.
+make[4]: *** [Makefile:2416: basename-lgpl.lo] Error 1
+make[4]: Leaving directory '/usr/src/RPM/BUILD/lftp-4.9.2/lib'
+make[4]: Entering directory '/usr/src/RPM/BUILD/lftp-4.9.2/lib'
+/bin/sh ../libtool --silent  --tag=CC   --mode=compile i586-alt-linux-gcc -DHAVE_CONFIG_H -I.     -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -Wall -c -o c-strncasecmp.lo c-strncasecmp.c
+
+
+
+
+============[ PACKAGE: libcdio-2.1.0-alt1 ]============
+_cdio_stdio.c: In function '_stdio_seek':
+_cdio_stdio.c:53:20: error: implicit declaration of function 'fseeko64'; did you mean 'fseeko'? [-Wimplicit-function-declaration]
+   53 | #define CDIO_FSEEK fseeko64
+      |                    ^~~~~~~~
+_cdio_stdio.c:175:13: note: in expansion of macro 'CDIO_FSEEK'
+
+
+
+============[ PACKAGE: libcdio-2.1.0-alt1 ]============
+      |             ^~~~~~~~~~
+make[3]: *** [Makefile:778: _cdio_stdio.lo] Error 1
+make[3]: Leaving directory '/usr/src/RPM/BUILD/libcdio-2.1.0/lib/driver'
+make[3]: *** Waiting for unfinished jobs....
+make[3]: Entering directory '/usr/src/RPM/BUILD/libcdio-2.1.0/lib/driver'
+
+
+
+============[ PACKAGE: libcdio-2.1.0-alt1 ]============
+_cdio_generic.c: In function 'cdio_generic_lseek':
+_cdio_generic.c:63:20: error: implicit declaration of function 'lseek64'; did you mean 'lseek'? [-Wimplicit-function-declaration]
+   63 | #define CDIO_LSEEK lseek64
+      |                    ^~~~~~~
+_cdio_generic.c:173:10: note: in expansion of macro 'CDIO_LSEEK'
+
+
+
+============[ PACKAGE: libcdio-2.1.0-alt1 ]============
+      |          ^~~~~~~~~~
+make[3]: *** [Makefile:778: _cdio_generic.lo] Error 1
+make[3]: Leaving directory '/usr/src/RPM/BUILD/libcdio-2.1.0/lib/driver'
+make[3]: Entering directory '/usr/src/RPM/BUILD/libcdio-2.1.0/lib/driver'
+/bin/sh ../../libtool  --tag=CC   --mode=compile i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../..  -I../../lib/driver -I../../include -I../../include/   -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic  -Wall -Wbad-function-cast -Wcast-align -Wchar-subscripts -Wdeclaration-after-statement -Wdisabled-optimization -Wendif-labels -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-sign-compare -Wpointer-arith -Wshadow -Wstrict-prototypes -Wundef -Wunused -Wwrite-strings -c -o memory.lo memory.c
+
+
+
+============[ PACKAGE: libcdio-2.1.0-alt1 ]============
+make[3]: Leaving directory '/usr/src/RPM/BUILD/libcdio-2.1.0/lib/driver'
+make[2]: *** [Makefile:424: all-recursive] Error 1
+make[1]: *** [Makefile:580: all-recursive] Error 1
+make: *** [Makefile:477: all] Error 2
+error: Bad exit status from /usr/src/tmp/rpm-tmp.62227 (%build)
+
+
+
+
+============[ PACKAGE: libchipcard-5.1.6-alt1 ]============
+configure: WARNING: unrecognized options: --without-included-gettext, --enable-pcsc, --with-pcsc-libs
+ln: failed to create symbolic link 'libchipcard5/chipcard/cards/hiinsurancedata.h': File exists
+ln: failed to create symbolic link 'libchipcard5/chipcard/cards/hipersonaldata.h': File exists
+
+Summary:
+
+
+
+============[ PACKAGE: libchipcard-5.1.6-alt1 ]============
+ln: failed to create symbolic link 'libchipcard5/chipcard/cards/hiinsurancedata.h': File exists
+ln: failed to create symbolic link 'libchipcard5/chipcard/cards/hipersonaldata.h': File exists
+
+Summary:
+=================================
+
+
+
+============[ PACKAGE: libchipcard-5.1.6-alt1 ]============
+main.c: In function '_readBytesHex':
+main.c:347:9: error: implicit declaration of function 'toupper' [-Wimplicit-function-declaration]
+  347 |     c = toupper(c);
+      |         ^~~~~~~
+main.c:23:1: note: include '<ctype.h>' or provide a declaration of 'toupper'
+
+
+
+============[ PACKAGE: libchipcard-5.1.6-alt1 ]============
+      |               ^
+make[4]: *** [Makefile:479: main.o] Error 1
+make[4]: Leaving directory '/usr/src/RPM/BUILD/libchipcard-5.1.6/src/tools/usbtan-test'
+make[3]: *** [Makefile:417: all-recursive] Error 1
+make[2]: *** [Makefile:417: all-recursive] Error 1
+
+
+
+============[ PACKAGE: libchipcard-5.1.6-alt1 ]============
+make[4]: Leaving directory '/usr/src/RPM/BUILD/libchipcard-5.1.6/src/tools/usbtan-test'
+make[3]: *** [Makefile:417: all-recursive] Error 1
+make[2]: *** [Makefile:417: all-recursive] Error 1
+make[1]: *** [Makefile:607: all-recursive] Error 1
+make: *** [Makefile:452: all] Error 2
+
+
+
+
+============[ PACKAGE: libcminpack-1.3.8-alt1_4 ]============
+Problem opening /proc/meminfo
+CMake Error at CMakeLists.txt:4 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 has been removed from CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+
+
+
+============[ PACKAGE: libcminpack-1.3.8-alt1_4 ]============
+
+-- Configuring incomplete, errors occurred!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.34831 (%build)
+
+
+
+
+
+============[ PACKAGE: libcminpack-1.3.8-alt1_4 ]============
+-- Configuring incomplete, errors occurred!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.34831 (%build)
+
+
+RPM build errors:
+
+
+
+============[ PACKAGE: libcminpack-1.3.8-alt1_4 ]============
+
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.34831 (%build)
+Command exited with non-zero status 1
+0.06user 0.05system 0:00.10elapsed 109%CPU (0avgtext+0avgdata 17056maxresident)k
+
+
+
+============[ PACKAGE: libcminpack-1.3.8-alt1_4 ]============
+0inputs+0outputs (0major+7310minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `libcminpack-1.3.8-alt1_4.src.rpm' failed.
+Command exited with non-zero status 1
+6.12user 2.51system 0:17.82elapsed 48%CPU (0avgtext+0avgdata 134016maxresident)k
+39152inputs+0outputs (0major+272521minor)pagefaults 0swaps
+
+
+
+
+============[ PACKAGE: libcomps-0.1.18-alt1_4 ]============
+-- Detecting C compile features - done
+CMake Error at CMakeLists.txt:2 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 has been removed from CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+
+
+
+============[ PACKAGE: libcomps-0.1.18-alt1_4 ]============
+
+-- Configuring incomplete, errors occurred!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.76138 (%build)
+
+
+
+
+
+============[ PACKAGE: libcomps-0.1.18-alt1_4 ]============
+-- Configuring incomplete, errors occurred!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.76138 (%build)
+
+
+RPM build errors:
+
+
+
+============[ PACKAGE: libcomps-0.1.18-alt1_4 ]============
+
+RPM build errors:
+    ignored self-provides: libcomps-devel = 0.1.18-alt1_4
+    Bad exit status from /usr/src/tmp/rpm-tmp.76138 (%build)
+Command exited with non-zero status 1
+
+
+
+============[ PACKAGE: libcomps-0.1.18-alt1_4 ]============
+0inputs+0outputs (0major+41668minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `libcomps-0.1.18-alt1_4.src.rpm' failed.
+Command exited with non-zero status 1
+6.23user 3.51system 0:28.19elapsed 34%CPU (0avgtext+0avgdata 133656maxresident)k
+5616inputs+0outputs (0major+322148minor)pagefaults 0swaps
+
+
+
+
+============[ PACKAGE: libdnf-0.65.0-alt1 ]============
+-- Detecting CXX compile features - done
+CMake Error at CMakeLists.txt:8 (cmake_policy):
+  Policy CMP0005 may not be set to OLD behavior because this version of CMake
+  no longer supports it.  The policy was introduced in CMake version 2.6.0,
+  and use of NEW behavior is now required.
+
+
+
+============[ PACKAGE: libdnf-0.65.0-alt1 ]============
+-- Python install dir is /usr/lib/python3/site-packages
+-- Configuring incomplete, errors occurred!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.76062 (%build)
+
+
+
+
+
+============[ PACKAGE: libdnf-0.65.0-alt1 ]============
+-- Configuring incomplete, errors occurred!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.76062 (%build)
+
+
+RPM build errors:
+
+
+
+============[ PACKAGE: libdnf-0.65.0-alt1 ]============
+
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.76062 (%build)
+Command exited with non-zero status 1
+0.71user 0.79system 0:01.45elapsed 103%CPU (0avgtext+0avgdata 20788maxresident)k
+
+
+
+============[ PACKAGE: libdnf-0.65.0-alt1 ]============
+0inputs+0outputs (0major+140896minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `libdnf-0.65.0-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+4.45user 3.35system 0:20.37elapsed 38%CPU (0avgtext+0avgdata 132576maxresident)k
+21008inputs+0outputs (0major+312257minor)pagefaults 0swaps
+
+
+
+
+============[ PACKAGE: libdtkwm-2.0.12-alt1 ]============
+/usr/src/RPM/BUILD/libdtkwm-2.0.12/src/src.pro:15: Cannot find feature dtk_cmake
+Project ERROR: Unknown module(s) in QT: dtkcore
+make: *** [Makefile:48: sub-src-make_first-ordered] Error 3
+error: Bad exit status from /usr/src/tmp/rpm-tmp.63698 (%build)
+
+
+
+
+============[ PACKAGE: libdtkwm-2.0.12-alt1 ]============
+Project ERROR: Unknown module(s) in QT: dtkcore
+make: *** [Makefile:48: sub-src-make_first-ordered] Error 3
+error: Bad exit status from /usr/src/tmp/rpm-tmp.63698 (%build)
+
+
+
+
+
+============[ PACKAGE: libdtkwm-2.0.12-alt1 ]============
+make: *** [Makefile:48: sub-src-make_first-ordered] Error 3
+error: Bad exit status from /usr/src/tmp/rpm-tmp.63698 (%build)
+
+
+RPM build errors:
+
+
+
+============[ PACKAGE: libdtkwm-2.0.12-alt1 ]============
+
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.63698 (%build)
+Command exited with non-zero status 1
+0.14user 0.08system 0:00.23elapsed 101%CPU (0avgtext+0avgdata 8652maxresident)k
+
+
+
+============[ PACKAGE: libdtkwm-2.0.12-alt1 ]============
+0inputs+0outputs (0major+15459minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `libdtkwm-2.0.12-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+6.86user 2.73system 0:35.75elapsed 26%CPU (0avgtext+0avgdata 134336maxresident)k
+163200inputs+0outputs (0major+271384minor)pagefaults 0swaps
+
+
+
+
+============[ PACKAGE: libechonest-2.3.1-alt1 ]============
+-- Detecting CXX compile features - done
+CMake Error at CMakeLists.txt:6 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 has been removed from CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+
+
+
+============[ PACKAGE: libechonest-2.3.1-alt1 ]============
+
+-- Configuring incomplete, errors occurred!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.1361 (%build)
+
+
+
+
+
+============[ PACKAGE: libechonest-2.3.1-alt1 ]============
+-- Configuring incomplete, errors occurred!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.1361 (%build)
+
+
+RPM build errors:
+
+
+
+============[ PACKAGE: libechonest-2.3.1-alt1 ]============
+
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.1361 (%build)
+Command exited with non-zero status 1
+0.97user 0.30system 0:01.26elapsed 101%CPU (0avgtext+0avgdata 20784maxresident)k
+
+
+
+============[ PACKAGE: libechonest-2.3.1-alt1 ]============
+0inputs+0outputs (0major+70560minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `libechonest-2.3.1-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+5.13user 3.53system 0:25.87elapsed 33%CPU (0avgtext+0avgdata 129640maxresident)k
+0inputs+0outputs (0major+306056minor)pagefaults 0swaps
+
+
+
+
+============[ PACKAGE: libflann-1.9.2-alt2.1 ]============
+Problem opening /proc/meminfo
+CMake Error at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 has been removed from CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+
+
+
+============[ PACKAGE: libflann-1.9.2-alt2.1 ]============
+
+-- Configuring incomplete, errors occurred!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.18775 (%build)
+
+
+
+
+
+============[ PACKAGE: libflann-1.9.2-alt2.1 ]============
+-- Configuring incomplete, errors occurred!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.18775 (%build)
+
+
+RPM build errors:
+
+
+
+============[ PACKAGE: libflann-1.9.2-alt2.1 ]============
+
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.18775 (%build)
+Command exited with non-zero status 1
+1.23user 0.17system 0:01.41elapsed 100%CPU (0avgtext+0avgdata 30048maxresident)k
+
+
+
+============[ PACKAGE: libflann-1.9.2-alt2.1 ]============
+0inputs+0outputs (0major+22461minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `libflann-1.9.2-alt2.1.src.rpm' failed.
+Command exited with non-zero status 1
+9.14user 4.94system 2:32.46elapsed 9%CPU (0avgtext+0avgdata 133428maxresident)k
+51816inputs+0outputs (0major+457533minor)pagefaults 0swaps
+
+
+
+
+============[ PACKAGE: libfli-1.9.0-alt1_2 ]============
+Problem opening /proc/meminfo
+CMake Error at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 has been removed from CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+
+
+
+============[ PACKAGE: libfli-1.9.0-alt1_2 ]============
+
+-- Configuring incomplete, errors occurred!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.94013 (%build)
+
+
+
+
+
+============[ PACKAGE: libfli-1.9.0-alt1_2 ]============
+-- Configuring incomplete, errors occurred!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.94013 (%build)
+
+
+RPM build errors:
+
+
+
+============[ PACKAGE: libfli-1.9.0-alt1_2 ]============
+
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.94013 (%build)
+Command exited with non-zero status 1
+0.03user 0.05system 0:00.07elapsed 106%CPU (0avgtext+0avgdata 15660maxresident)k
+
+
+
+============[ PACKAGE: libfli-1.9.0-alt1_2 ]============
+0inputs+0outputs (0major+7132minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `libfli-1.9.0-alt1_2.src.rpm' failed.
+Command exited with non-zero status 1
+4.48user 3.21system 0:13.71elapsed 56%CPU (0avgtext+0avgdata 133268maxresident)k
+6544inputs+0outputs (0major+273510minor)pagefaults 0swaps
+
+
+
+

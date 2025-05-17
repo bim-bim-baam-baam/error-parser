@@ -1,0 +1,433 @@
+============[ PACKAGE: libfprint2-1.94.9-alt1 ]============
+finger status:  0
+enroll progress: (<__gi__.FpiDeviceElanmoc object at 0xf65fbbc8 (FpiDeviceElanmoc at 0x56e60318)>, 7, None, None, GLib.Error('The finger was not centered properly, please try again.', 'fp - device - retry - quark', 2))
+finger status:  0
+enroll progress: (<__gi__.FpiDeviceElanmoc object at 0xf65fbbc8 (FpiDeviceElanmoc at 0x56e60318)>, 8, None, None, None)
+finger status:  0
+
+
+
+============[ PACKAGE: libfprint2-1.94.9-alt1 ]============
+finger status:  0
+enroll progress: (<__gi__.FpiDeviceElanmoc object at 0xf65fbbc8 (FpiDeviceElanmoc at 0x56e60318)>, 8, None, None, GLib.Error('The finger was not centered properly, please try again.', 'fp - device - retry - quark', 2))
+finger status:  0
+enroll progress: (<__gi__.FpiDeviceElanmoc object at 0xf65fbbc8 (FpiDeviceElanmoc at 0x56e60318)>, 9, None, None, None)
+enroll done
+
+
+
+============[ PACKAGE: libfprint2-1.94.9-alt1 ]============
+stderr:
+ERROR: uevent_sender_send: No such device /sys/devices/pci0000:00/0000:00:14.0/usb1/1-9
+ERROR: uevent_sender_send: No such device /sys/devices/pci0000:00/0000:00:14.0/usb1
+ERROR: uevent_sender_send: No such device /sys/devices/pci0000:00/0000:00:14.0
+TypeError: identify_done() takes 2 positional arguments but 3 were given
+
+
+
+============[ PACKAGE: libfprint2-1.94.9-alt1 ]============
+ERROR: uevent_sender_send: No such device /sys/devices/pci0000:00/0000:00:14.0/usb1/1-9
+ERROR: uevent_sender_send: No such device /sys/devices/pci0000:00/0000:00:14.0/usb1
+ERROR: uevent_sender_send: No such device /sys/devices/pci0000:00/0000:00:14.0
+TypeError: identify_done() takes 2 positional arguments but 3 were given
+libusb: warning [libusb_exit] device 1.3 still referenced
+
+
+
+============[ PACKAGE: libfprint2-1.94.9-alt1 ]============
+ERROR: uevent_sender_send: No such device /sys/devices/pci0000:00/0000:00:14.0/usb1
+ERROR: uevent_sender_send: No such device /sys/devices/pci0000:00/0000:00:14.0
+TypeError: identify_done() takes 2 positional arguments but 3 were given
+libusb: warning [libusb_exit] device 1.3 still referenced
+libusb: warning [libusb_exit] device 1.1 still referenced
+
+
+
+
+============[ PACKAGE: libgamerzilla-0.1.3-alt1_1 ]============
+Problem opening /proc/meminfo
+CMake Error at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 has been removed from CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+
+
+
+============[ PACKAGE: libgamerzilla-0.1.3-alt1_1 ]============
+
+-- Configuring incomplete, errors occurred!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.72171 (%build)
+
+
+
+
+
+============[ PACKAGE: libgamerzilla-0.1.3-alt1_1 ]============
+-- Configuring incomplete, errors occurred!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.72171 (%build)
+
+
+RPM build errors:
+
+
+
+============[ PACKAGE: libgamerzilla-0.1.3-alt1_1 ]============
+
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.72171 (%build)
+Command exited with non-zero status 1
+0.02user 0.05system 0:00.07elapsed 106%CPU (0avgtext+0avgdata 15716maxresident)k
+
+
+
+============[ PACKAGE: libgamerzilla-0.1.3-alt1_1 ]============
+0inputs+0outputs (0major+7053minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `libgamerzilla-0.1.3-alt1_1.src.rpm' failed.
+Command exited with non-zero status 1
+3.90user 3.08system 0:12.48elapsed 55%CPU (0avgtext+0avgdata 132988maxresident)k
+1912inputs+0outputs (0major+290834minor)pagefaults 0swaps
+
+
+
+
+============[ PACKAGE: libgarmin-0.1.0-alt3 ]============
+E: Couldn't find package rpm-macros-fillup
+hsh-install: Failed to calculate package file list.
+hsh-install: Failed to generate package file list.
+Command exited with non-zero status 1
+2.39user 2.39system 0:07.61elapsed 62%CPU (0avgtext+0avgdata 126268maxresident)k
+
+
+
+============[ PACKAGE: libgarmin-0.1.0-alt3 ]============
+hsh-install: Failed to calculate package file list.
+hsh-install: Failed to generate package file list.
+Command exited with non-zero status 1
+2.39user 2.39system 0:07.61elapsed 62%CPU (0avgtext+0avgdata 126268maxresident)k
+0inputs+0outputs (0major+82114minor)pagefaults 0swaps
+
+
+
+
+============[ PACKAGE: libgda6-6.0.0-alt2 ]============
+[715/796] Generating libgda-ui/gdaui6.0_vapi with a custom command
+FAILED: libgda-ui/libgdaui-6.0.vapi 
+/usr/bin/vapigen-0.56 --girdir=/usr/src/RPM/BUILD/libgda-6.0.0/i586-alt-linux/libgda --metadatadir=/usr/src/RPM/BUILD/libgda-6.0.0/libgda-ui --library=libgdaui-6.0 --directory=/usr/src/RPM/BUILD/libgda-6.0.0/i586-alt-linux/libgda-ui --vapidir=/usr/src/RPM/BUILD/libgda-6.0.0/i586-alt-linux/libgda --pkg=libxml-2.0 --pkg=gio-2.0 --pkg=libgda-6.0 --pkg=gtk+-3.0 libgda-ui/Gdaui-6.0.gir ../libgda-ui/Gda-6.0-custom.vala
+error: Package `libgda-6.0' not found in specified Vala API directories or GObject-Introspection GIR directories
+Generation failed: 1 error(s), 0 warning(s)
+
+
+
+============[ PACKAGE: libgda6-6.0.0-alt2 ]============
+/usr/bin/vapigen-0.56 --girdir=/usr/src/RPM/BUILD/libgda-6.0.0/i586-alt-linux/libgda --metadatadir=/usr/src/RPM/BUILD/libgda-6.0.0/libgda-ui --library=libgdaui-6.0 --directory=/usr/src/RPM/BUILD/libgda-6.0.0/i586-alt-linux/libgda-ui --vapidir=/usr/src/RPM/BUILD/libgda-6.0.0/i586-alt-linux/libgda --pkg=libxml-2.0 --pkg=gio-2.0 --pkg=libgda-6.0 --pkg=gtk+-3.0 libgda-ui/Gdaui-6.0.gir ../libgda-ui/Gda-6.0-custom.vala
+error: Package `libgda-6.0' not found in specified Vala API directories or GObject-Introspection GIR directories
+Generation failed: 1 error(s), 0 warning(s)
+[716/796] Linking target providers/sqlcipher/libgda-sqlcipher-6.0.so
+[717/796] Linking target providers/skel-implementation/models/liblibgda-models.so
+
+
+
+============[ PACKAGE: libgda6-6.0.0-alt2 ]============
+error: Package `libgda-6.0' not found in specified Vala API directories or GObject-Introspection GIR directories
+Generation failed: 1 error(s), 0 warning(s)
+[716/796] Linking target providers/sqlcipher/libgda-sqlcipher-6.0.so
+[717/796] Linking target providers/skel-implementation/models/liblibgda-models.so
+[718/796] Linking target libgda/test_cnc_exec
+
+
+
+============[ PACKAGE: libgda6-6.0.0-alt2 ]============
+[730/796] Linking target providers/postgres/libgda-postgres-6.0.so
+ninja: build stopped: subcommand failed.
+error: Bad exit status from /usr/src/tmp/rpm-tmp.10320 (%build)
+
+
+
+
+
+============[ PACKAGE: libgda6-6.0.0-alt2 ]============
+ninja: build stopped: subcommand failed.
+error: Bad exit status from /usr/src/tmp/rpm-tmp.10320 (%build)
+
+
+RPM build errors:
+
+
+
+
+============[ PACKAGE: libgibsonclient-1.0.0-alt1.git20140523 ]============
+Problem opening /proc/meminfo
+CMake Error at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 has been removed from CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+
+
+
+============[ PACKAGE: libgibsonclient-1.0.0-alt1.git20140523 ]============
+
+-- Configuring incomplete, errors occurred!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.96861 (%build)
+
+
+
+
+
+============[ PACKAGE: libgibsonclient-1.0.0-alt1.git20140523 ]============
+-- Configuring incomplete, errors occurred!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.96861 (%build)
+
+
+RPM build errors:
+
+
+
+============[ PACKAGE: libgibsonclient-1.0.0-alt1.git20140523 ]============
+
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.96861 (%build)
+Command exited with non-zero status 1
+0.01user 0.04system 0:00.06elapsed 103%CPU (0avgtext+0avgdata 15660maxresident)k
+
+
+
+============[ PACKAGE: libgibsonclient-1.0.0-alt1.git20140523 ]============
+0inputs+0outputs (0major+6723minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `libgibsonclient-1.0.0-alt1.git20140523.src.rpm' failed.
+Command exited with non-zero status 1
+3.44user 2.44system 0:10.81elapsed 54%CPU (0avgtext+0avgdata 132276maxresident)k
+58728inputs+0outputs (0major+205532minor)pagefaults 0swaps
+
+
+
+
+============[ PACKAGE: libgle-3.1.0-alt7.3.qa1 ]============
+egrep: warning: egrep is obsolescent; using grep -E
+failed
+checking how to run the C preprocessor... i586-alt-linux-gcc -E
+checking for egrep... grep -E
+checking for ANSI C header files... no
+
+
+
+============[ PACKAGE: libgle-3.1.0-alt7.3.qa1 ]============
+ex_angle.c: In function 'draw_angle_style_front_cap':
+ex_angle.c:114:38: error: passing argument 3 of 'gluTessCallback' from incompatible pointer type [-Wincompatible-pointer-types]
+  114 |    gluTessCallback (tobj, GLU_BEGIN, glBegin);
+      |                                      ^~~~~~~
+      |                                      |
+
+
+
+============[ PACKAGE: libgle-3.1.0-alt7.3.qa1 ]============
+      |                                                                           ~~~~~~~~~~~~^~~~~~~~~~~~
+ex_angle.c:115:39: error: passing argument 3 of 'gluTessCallback' from incompatible pointer type [-Wincompatible-pointer-types]
+  115 |    gluTessCallback (tobj, GLU_VERTEX, glVertex3dv);
+      |                                       ^~~~~~~~~~~
+      |                                       |
+
+
+
+============[ PACKAGE: libgle-3.1.0-alt7.3.qa1 ]============
+ex_angle.c: In function 'draw_angle_style_back_cap':
+ex_angle.c:193:38: error: passing argument 3 of 'gluTessCallback' from incompatible pointer type [-Wincompatible-pointer-types]
+  193 |    gluTessCallback (tobj, GLU_BEGIN, glBegin);
+      |                                      ^~~~~~~
+      |                                      |
+
+
+
+============[ PACKAGE: libgle-3.1.0-alt7.3.qa1 ]============
+      |                                                                           ~~~~~~~~~~~~^~~~~~~~~~~~
+ex_angle.c:194:39: error: passing argument 3 of 'gluTessCallback' from incompatible pointer type [-Wincompatible-pointer-types]
+  194 |    gluTessCallback (tobj, GLU_VERTEX, glVertex3dv);
+      |                                       ^~~~~~~~~~~
+      |                                       |
+
+
+
+
+============[ PACKAGE: libgme-0.6.3-alt2 ]============
+  same as the current working directory, but note that this warning will
+  become a fatal error in future CMake releases.
+
+
+Problem opening /proc/meminfo
+
+
+
+============[ PACKAGE: libgme-0.6.3-alt2 ]============
+-- Detecting CXX compile features - done
+CMake Error at CMakeLists.txt:12 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 has been removed from CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+
+
+
+============[ PACKAGE: libgme-0.6.3-alt2 ]============
+
+-- Configuring incomplete, errors occurred!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.79384 (%build)
+
+
+
+
+
+============[ PACKAGE: libgme-0.6.3-alt2 ]============
+-- Configuring incomplete, errors occurred!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.79384 (%build)
+
+
+RPM build errors:
+
+
+
+============[ PACKAGE: libgme-0.6.3-alt2 ]============
+
+RPM build errors:
+    ignored self-provides: libgme-devel = 0.6.3-alt2
+    Bad exit status from /usr/src/tmp/rpm-tmp.79384 (%build)
+Command exited with non-zero status 1
+
+
+
+
+============[ PACKAGE: libgoocanvas2-2.0.4-alt2 ]============
+goocanvasitemsimple.c: In function 'goo_canvas_item_simple_set_model':
+goocanvasitemsimple.c:1539:15: error: assignment to 'GooCanvasItemModelSimple *' {aka 'struct _GooCanvasItemModelSimple *'} from incompatible pointer type 'GooCanvasItemModel *' {aka 'struct _GooCanvasItemModel *'} [-Wincompatible-pointer-types]
+ 1539 |   item->model = g_object_ref (model);
+      |               ^
+make[3]: *** [Makefile:629: goocanvasitemsimple.lo] Error 1
+
+
+
+============[ PACKAGE: libgoocanvas2-2.0.4-alt2 ]============
+      |               ^
+make[3]: *** [Makefile:629: goocanvasitemsimple.lo] Error 1
+make[3]: Leaving directory '/usr/src/RPM/BUILD/goocanvas-2.0.4/src'
+make[3]: *** Waiting for unfinished jobs....
+make[3]: Entering directory '/usr/src/RPM/BUILD/goocanvas-2.0.4/src'
+
+
+
+============[ PACKAGE: libgoocanvas2-2.0.4-alt2 ]============
+make[3]: Leaving directory '/usr/src/RPM/BUILD/goocanvas-2.0.4/src'
+make[2]: *** [Makefile:506: all] Error 2
+make[1]: *** [Makefile:514: all-recursive] Error 1
+make: *** [Makefile:423: all] Error 2
+error: Bad exit status from /usr/src/tmp/rpm-tmp.70911 (%build)
+
+
+
+============[ PACKAGE: libgoocanvas2-2.0.4-alt2 ]============
+make[2]: *** [Makefile:506: all] Error 2
+make[1]: *** [Makefile:514: all-recursive] Error 1
+make: *** [Makefile:423: all] Error 2
+error: Bad exit status from /usr/src/tmp/rpm-tmp.70911 (%build)
+
+
+
+
+============[ PACKAGE: libgoocanvas2-2.0.4-alt2 ]============
+make[1]: *** [Makefile:514: all-recursive] Error 1
+make: *** [Makefile:423: all] Error 2
+error: Bad exit status from /usr/src/tmp/rpm-tmp.70911 (%build)
+
+
+
+
+
+
+============[ PACKAGE: libgtk-engine-murrine-0.98.1.1-alt0.1.1.1 ]============
+./src/murrine_style.c: In function 'murrine_set_widget_parameters':
+./src/murrine_style.c:133:30: error: implicit declaration of function 'murrine_widget_is_ltr'; did you mean 'murrine_widget_is_rgba'? [-Wimplicit-function-declaration]
+  133 |         params->ltr        = murrine_widget_is_ltr ((GtkWidget*)widget);
+      |                              ^~~~~~~~~~~~~~~~~~~~~
+      |                              murrine_widget_is_rgba
+
+
+
+============[ PACKAGE: libgtk-engine-murrine-0.98.1.1-alt0.1.1.1 ]============
+In file included from ./src/murrine_style.c:30:
+./src/support.h:79:50: error: implicit declaration of function 'murrine_object_is_a'; did you mean 'murrine_widget_is_rgba'? [-Wimplicit-function-declaration]
+   79 | #define MRN_IS_PROGRESS_BAR(object) ((object) && murrine_object_is_a ((GObject*)(object), "GtkProgressBar"))
+      |                                                  ^~~~~~~~~~~~~~~~~~~
+./src/murrine_style.c:174:42: note: in expansion of macro 'MRN_IS_PROGRESS_BAR'
+
+
+
+============[ PACKAGE: libgtk-engine-murrine-0.98.1.1-alt0.1.1.1 ]============
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+make[1]: *** [Makefile:645: murrine_style.lo] Error 1
+make[1]: Leaving directory '/usr/src/RPM/BUILD/libgtk-engine-murrine-0.98.1.1'
+make[1]: *** Waiting for unfinished jobs....
+make[1]: Entering directory '/usr/src/RPM/BUILD/libgtk-engine-murrine-0.98.1.1'
+
+
+
+============[ PACKAGE: libgtk-engine-murrine-0.98.1.1-alt0.1.1.1 ]============
+./src/murrine_theme_main.c: In function 'theme_init':
+./src/murrine_theme_main.c:31:9: error: implicit declaration of function 'murrine_rc_style_register_types'; did you mean 'murrine_rc_style_get_type'? [-Wimplicit-function-declaration]
+   31 |         murrine_rc_style_register_types (module);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |         murrine_rc_style_get_type
+
+
+
+============[ PACKAGE: libgtk-engine-murrine-0.98.1.1-alt0.1.1.1 ]============
+      |         murrine_rc_style_get_type
+./src/murrine_theme_main.c:32:9: error: implicit declaration of function 'murrine_style_register_types'; did you mean 'murrine_style_get_type'? [-Wimplicit-function-declaration]
+   32 |         murrine_style_register_types (module);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |         murrine_style_get_type
+
+
+
+
+============[ PACKAGE: libgtk-sharp2-2.12.45-alt1 ]============
+libtool: compile:  i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../.. -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DGTK_SHARP_2_6 -DGTK_SHARP_2_8 -DGTK_SHARP_2_10 -DGTK_SHARP_2_12 -I../.. -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -g -Wall -Wunused -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Wshadow -Wpointer-arith -Wno-cast-qual -Wcast-align -Wwrite-strings -DDISABLE_GTHREAD_CHECK -c closure.c  -fPIC -DPIC -o .libs/closure.o
+/bin/sh ../../libtool  --tag=CC   --mode=compile i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../.. -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DGTK_SHARP_2_6 -DGTK_SHARP_2_8 -DGTK_SHARP_2_10 -DGTK_SHARP_2_12 -I../..    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -g -Wall -Wunused -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes  -Wmissing-prototypes -Wnested-externs  -Wshadow -Wpointer-arith -Wno-cast-qual -Wcast-align -Wwrite-strings -DDISABLE_GTHREAD_CHECK -c -o error.lo error.c
+libtool: compile:  i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../.. -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DGTK_SHARP_2_6 -DGTK_SHARP_2_8 -DGTK_SHARP_2_10 -DGTK_SHARP_2_12 -I../.. -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -g -Wall -Wunused -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Wshadow -Wpointer-arith -Wno-cast-qual -Wcast-align -Wwrite-strings -DDISABLE_GTHREAD_CHECK -c error.c  -fPIC -DPIC -o .libs/error.o
+/bin/sh ../../libtool  --tag=CC   --mode=compile i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../.. -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DGTK_SHARP_2_6 -DGTK_SHARP_2_8 -DGTK_SHARP_2_10 -DGTK_SHARP_2_12 -I../..    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -g -Wall -Wunused -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes  -Wmissing-prototypes -Wnested-externs  -Wshadow -Wpointer-arith -Wno-cast-qual -Wcast-align -Wwrite-strings -DDISABLE_GTHREAD_CHECK -c -o object.lo object.c
+libtool: compile:  i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../.. -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DGTK_SHARP_2_6 -DGTK_SHARP_2_8 -DGTK_SHARP_2_10 -DGTK_SHARP_2_12 -I../.. -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -g -Wall -Wunused -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Wshadow -Wpointer-arith -Wno-cast-qual -Wcast-align -Wwrite-strings -DDISABLE_GTHREAD_CHECK -c object.c  -fPIC -DPIC -o .libs/object.o
+
+
+
+============[ PACKAGE: libgtk-sharp2-2.12.45-alt1 ]============
+/bin/sh ../../libtool  --tag=CC   --mode=compile i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../.. -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DGTK_SHARP_2_6 -DGTK_SHARP_2_8 -DGTK_SHARP_2_10 -DGTK_SHARP_2_12 -I../..    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -g -Wall -Wunused -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes  -Wmissing-prototypes -Wnested-externs  -Wshadow -Wpointer-arith -Wno-cast-qual -Wcast-align -Wwrite-strings -DDISABLE_GTHREAD_CHECK -c -o error.lo error.c
+libtool: compile:  i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../.. -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DGTK_SHARP_2_6 -DGTK_SHARP_2_8 -DGTK_SHARP_2_10 -DGTK_SHARP_2_12 -I../.. -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -g -Wall -Wunused -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Wshadow -Wpointer-arith -Wno-cast-qual -Wcast-align -Wwrite-strings -DDISABLE_GTHREAD_CHECK -c error.c  -fPIC -DPIC -o .libs/error.o
+/bin/sh ../../libtool  --tag=CC   --mode=compile i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../.. -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DGTK_SHARP_2_6 -DGTK_SHARP_2_8 -DGTK_SHARP_2_10 -DGTK_SHARP_2_12 -I../..    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -g -Wall -Wunused -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes  -Wmissing-prototypes -Wnested-externs  -Wshadow -Wpointer-arith -Wno-cast-qual -Wcast-align -Wwrite-strings -DDISABLE_GTHREAD_CHECK -c -o object.lo object.c
+libtool: compile:  i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../.. -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DGTK_SHARP_2_6 -DGTK_SHARP_2_8 -DGTK_SHARP_2_10 -DGTK_SHARP_2_12 -I../.. -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -g -Wall -Wunused -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Wshadow -Wpointer-arith -Wno-cast-qual -Wcast-align -Wwrite-strings -DDISABLE_GTHREAD_CHECK -c object.c  -fPIC -DPIC -o .libs/object.o
+object.c: In function 'gtksharp_object_newv':
+
+
+
+============[ PACKAGE: libgtk-sharp2-2.12.45-alt1 ]============
+      |                    ^~~~~~~~~~~~~~~~~~               
+/bin/sh ../../libtool  --tag=CC   --mode=link i586-alt-linux-gcc  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -g -Wall -Wunused -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes  -Wmissing-prototypes -Wnested-externs  -Wshadow -Wpointer-arith -Wno-cast-qual -Wcast-align -Wwrite-strings -DDISABLE_GTHREAD_CHECK -module -avoid-version -no-undefined  -o libglibsharpglue-2.la -rpath /usr/lib closure.lo error.lo object.lo ptrarray.lo signal.lo type.lo unichar.lo value.lo valuearray.lo thread.lo -lgobject-2.0 -lglib-2.0 
+libtool: link: i586-alt-linux-gcc -shared  -fPIC -DPIC  .libs/closure.o .libs/error.o .libs/object.o .libs/ptrarray.o .libs/signal.o .libs/type.o .libs/unichar.o .libs/value.o .libs/valuearray.o .libs/thread.o   -lgobject-2.0 -lglib-2.0  -g -O2 -flto=auto -march=i586 -mtune=generic -g   -Wl,-soname -Wl,libglibsharpglue-2.so -o .libs/libglibsharpglue-2.so
+libtool: link: ( cd ".libs" && rm -f "libglibsharpglue-2.la" && ln -s "../libglibsharpglue-2.la" "libglibsharpglue-2.la" )
+make[3]: Leaving directory '/usr/src/RPM/BUILD/libgtk-sharp2-2.12.45/glib/glue'
+
+
+
+============[ PACKAGE: libgtk-sharp2-2.12.45-alt1 ]============
+/bin/sh ../../libtool  --tag=CC   --mode=link i586-alt-linux-gcc  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -g -Wall -Wunused -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes  -Wmissing-prototypes -Wnested-externs  -Wshadow -Wpointer-arith -Wno-cast-qual -Wcast-align -Wwrite-strings -DDISABLE_GTHREAD_CHECK -module -avoid-version -no-undefined  -o libglibsharpglue-2.la -rpath /usr/lib closure.lo error.lo object.lo ptrarray.lo signal.lo type.lo unichar.lo value.lo valuearray.lo thread.lo -lgobject-2.0 -lglib-2.0 
+libtool: link: i586-alt-linux-gcc -shared  -fPIC -DPIC  .libs/closure.o .libs/error.o .libs/object.o .libs/ptrarray.o .libs/signal.o .libs/type.o .libs/unichar.o .libs/value.o .libs/valuearray.o .libs/thread.o   -lgobject-2.0 -lglib-2.0  -g -O2 -flto=auto -march=i586 -mtune=generic -g   -Wl,-soname -Wl,libglibsharpglue-2.so -o .libs/libglibsharpglue-2.so
+libtool: link: ( cd ".libs" && rm -f "libglibsharpglue-2.la" && ln -s "../libglibsharpglue-2.la" "libglibsharpglue-2.la" )
+make[3]: Leaving directory '/usr/src/RPM/BUILD/libgtk-sharp2-2.12.45/glib/glue'
+make[3]: Entering directory '/usr/src/RPM/BUILD/libgtk-sharp2-2.12.45/glib'
+
+
+
+============[ PACKAGE: libgtk-sharp2-2.12.45-alt1 ]============
+windowmanager.c: In function 'gtksharp_get_gdk_net_client_list':
+windowmanager.c:113:26: error: assignment to 'gpointer' {aka 'void *'} from 'long int' makes pointer from integer without a cast [-Wint-conversion]
+  113 |                 list [i] = data [i];
+      |                          ^
+In file included from /usr/include/glib-2.0/glib.h:64,
+
+
+
+

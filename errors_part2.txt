@@ -1,0 +1,433 @@
+============[ PACKAGE: atl-2.0.13-alt2.rev20268.svn20150203 ]============
+Problem opening /proc/meminfo
+CMake Error at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 has been removed from CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+
+
+
+============[ PACKAGE: atl-2.0.13-alt2.rev20268.svn20150203 ]============
+
+-- Configuring incomplete, errors occurred!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.20212 (%build)
+
+
+
+
+
+============[ PACKAGE: atl-2.0.13-alt2.rev20268.svn20150203 ]============
+-- Configuring incomplete, errors occurred!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.20212 (%build)
+
+
+RPM build errors:
+
+
+
+============[ PACKAGE: atl-2.0.13-alt2.rev20268.svn20150203 ]============
+
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.20212 (%build)
+Command exited with non-zero status 1
+0.01user 0.04system 0:00.05elapsed 103%CPU (0avgtext+0avgdata 16736maxresident)k
+
+
+
+============[ PACKAGE: atl-2.0.13-alt2.rev20268.svn20150203 ]============
+0inputs+0outputs (0major+6909minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `atl-2.0.13-alt2.rev20268.svn20150203.src.rpm' failed.
+Command exited with non-zero status 1
+3.12user 2.51system 0:10.41elapsed 54%CPU (0avgtext+0avgdata 133592maxresident)k
+32inputs+0outputs (0major+207926minor)pagefaults 0swaps
+
+
+
+
+============[ PACKAGE: automake_1.16-1.16.5-alt1 ]============
+        if :; then :; else \
+          echo "doc/amhello-1.0.tar.gz: recipe failed." >&5; \
+          echo "See file '`pwd`/$tmp' for details" >&5; \
+	fi; \
+        exit 1; \
+
+
+
+============[ PACKAGE: automake_1.16-1.16.5-alt1 ]============
+PASS: t/aclocal-macrodirs.tap 12 - AC_CONFIG_MACRO_DIRS([non-existent]) warns (2)
+PASS: t/aclocal-macrodirs.tap 13 - AC_CONFIG_MACRO_DIRS([existent non-existent]) errors out
+PASS: t/aclocal-macrodirs.tap 14 - AC_CONFIG_MACRO_DIRS([not-exist]) and ACLOCAL_AMFLAGS = -I not-exist
+PASS: t/aclocal-macrodirs.tap 15 - AC_CONFIG_MACRO_DIRS interaction with AC_REQUIRE
+make[2]: Leaving directory '/usr/src/RPM/BUILD/automake-1.16.5-alt1'
+
+
+
+============[ PACKAGE: automake_1.16-1.16.5-alt1 ]============
+PASS: t/dist-formats.tap 17 - 'make dist-zstd' work by default
+PASS: t/dist-formats.tap 18 - no-dist-gzip (am) without other formats is an error
+PASS: t/dist-formats.tap 19 - no-dist-gzip (am) without other formats gives diagnostic
+PASS: t/dist-formats.tap 20 - no-dist-gzip (ac) without other formats is an error
+PASS: t/dist-formats.tap 21 - no-dist-gzip (ac) without other formats gives diagnostic
+
+
+
+============[ PACKAGE: automake_1.16-1.16.5-alt1 ]============
+PASS: t/dist-formats.tap 19 - no-dist-gzip (am) without other formats gives diagnostic
+PASS: t/dist-formats.tap 20 - no-dist-gzip (ac) without other formats is an error
+PASS: t/dist-formats.tap 21 - no-dist-gzip (ac) without other formats gives diagnostic
+PASS: t/dist-formats.tap 22 - am=dist-bzip2,no-dist-gzip [automake]
+PASS: t/dist-formats.tap 23 - am=dist-bzip2,no-dist-gzip [autoconf]
+
+
+
+============[ PACKAGE: automake_1.16-1.16.5-alt1 ]============
+make[2]: Entering directory '/usr/src/RPM/BUILD/automake-1.16.5-alt1'
+PASS: t/primary-prefix-invalid-couples.tap 1 - 'automake -a' error out on mismatched prefix/primary couples
+PASS: t/primary-prefix-invalid-couples.tap 2 - mismatched prefix/primary in bin_LIBRARIES
+PASS: t/primary-prefix-invalid-couples.tap 3 - mismatched prefix/primary in bin_LTLIBRARIES
+PASS: t/primary-prefix-invalid-couples.tap 4 - mismatched prefix/primary in bin_LISP
+
+
+
+
+============[ PACKAGE: awesome-4.3-alt5 ]============
+Problem opening /proc/meminfo
+CMake Error at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 has been removed from CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+
+
+
+============[ PACKAGE: awesome-4.3-alt5 ]============
+
+-- Configuring incomplete, errors occurred!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.36154 (%build)
+
+
+
+
+
+============[ PACKAGE: awesome-4.3-alt5 ]============
+-- Configuring incomplete, errors occurred!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.36154 (%build)
+
+
+RPM build errors:
+
+
+
+============[ PACKAGE: awesome-4.3-alt5 ]============
+
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.36154 (%build)
+Command exited with non-zero status 1
+0.17user 0.12system 0:00.36elapsed 81%CPU (0avgtext+0avgdata 16616maxresident)k
+
+
+
+============[ PACKAGE: awesome-4.3-alt5 ]============
+0inputs+0outputs (0major+12967minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `awesome-4.3-alt5.src.rpm' failed.
+Command exited with non-zero status 1
+7.76user 6.73system 0:38.43elapsed 37%CPU (0avgtext+0avgdata 133456maxresident)k
+2112inputs+0outputs (0major+346804minor)pagefaults 0swaps
+
+
+
+
+============[ PACKAGE: blobby-1.0-alt3_19.svn1681 ]============
+Problem opening /proc/meminfo
+CMake Error at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 has been removed from CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+
+
+
+============[ PACKAGE: blobby-1.0-alt3_19.svn1681 ]============
+
+-- Configuring incomplete, errors occurred!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.20936 (%build)
+
+
+
+
+
+============[ PACKAGE: blobby-1.0-alt3_19.svn1681 ]============
+-- Configuring incomplete, errors occurred!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.20936 (%build)
+
+
+RPM build errors:
+
+
+
+============[ PACKAGE: blobby-1.0-alt3_19.svn1681 ]============
+
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.20936 (%build)
+Command exited with non-zero status 1
+0.26user 0.11system 0:00.36elapsed 104%CPU (0avgtext+0avgdata 15608maxresident)k
+
+
+
+============[ PACKAGE: blobby-1.0-alt3_19.svn1681 ]============
+0inputs+0outputs (0major+16589minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `blobby-1.0-alt3_19.svn1681.src.rpm' failed.
+Command exited with non-zero status 1
+5.21user 3.98system 0:30.14elapsed 30%CPU (0avgtext+0avgdata 134108maxresident)k
+21792inputs+0outputs (0major+338898minor)pagefaults 0swaps
+
+
+
+
+============[ PACKAGE: bochs-2.8-alt3 ]============
+E: Couldn't find package dev86
+hsh-install: Failed to calculate package file list.
+hsh-install: Failed to generate package file list.
+Command exited with non-zero status 1
+2.52user 1.90system 0:06.35elapsed 69%CPU (0avgtext+0avgdata 126108maxresident)k
+
+
+
+============[ PACKAGE: bochs-2.8-alt3 ]============
+hsh-install: Failed to calculate package file list.
+hsh-install: Failed to generate package file list.
+Command exited with non-zero status 1
+2.52user 1.90system 0:06.35elapsed 69%CPU (0avgtext+0avgdata 126108maxresident)k
+0inputs+0outputs (0major+82498minor)pagefaults 0swaps
+
+
+
+
+============[ PACKAGE: c2050-0.4-alt1.qa1 ]============
+c2050.c: In function 'ClearBuffer':
+c2050.c:65:12: error: type defaults to 'int' in declaration of 'i' [-Wimplicit-int]
+   65 |   register i;
+      |            ^
+c2050.c: At top level:
+
+
+
+============[ PACKAGE: c2050-0.4-alt1.qa1 ]============
+c2050.c: At top level:
+c2050.c:72:1: error: return type defaults to 'int' [-Wimplicit-int]
+   72 | SweepBuffer_Init (struct tSweepBuffer *SweepBuffer, int bytesize)
+      | ^~~~~~~~~~~~~~~~
+c2050.c: In function 'PrintSweep':
+
+
+
+============[ PACKAGE: c2050-0.4-alt1.qa1 ]============
+c2050.c: In function 'PrintSweep':
+c2050.c:149:12: error: type defaults to 'int' in declaration of 'i' [-Wimplicit-int]
+  149 |   register i;
+      |            ^
+c2050.c: In function 'LineSum':
+
+
+
+============[ PACKAGE: c2050-0.4-alt1.qa1 ]============
+c2050.c: In function 'LineSum':
+c2050.c:178:12: error: type defaults to 'int' in declaration of 'i' [-Wimplicit-int]
+  178 |   register i = 0;
+      |            ^
+c2050.c: In function 'LexPrint':
+
+
+
+============[ PACKAGE: c2050-0.4-alt1.qa1 ]============
+      | ^
+make: *** [Makefile:24: c2050.o] Error 1
+make: Leaving directory '/usr/src/RPM/BUILD/c2050-0.4'
+error: Bad exit status from /usr/src/tmp/rpm-tmp.55461 (%build)
+
+
+
+
+
+============[ PACKAGE: c2070-0.99-alt1.qa2 ]============
+c2070.c: In function 'ClearBuffer':
+c2070.c:53:12: error: type defaults to 'int' in declaration of 'i' [-Wimplicit-int]
+   53 |   register i;
+      |            ^
+c2070.c: At top level:
+
+
+
+============[ PACKAGE: c2070-0.99-alt1.qa2 ]============
+c2070.c: At top level:
+c2070.c:60:1: error: return type defaults to 'int' [-Wimplicit-int]
+   60 | SweepBuffer_Init (struct tSweepBuffer *SweepBuffer, int bytesize)
+      | ^~~~~~~~~~~~~~~~
+c2070.c: In function 'PrintSweep':
+
+
+
+============[ PACKAGE: c2070-0.99-alt1.qa2 ]============
+c2070.c: In function 'PrintSweep':
+c2070.c:138:12: error: type defaults to 'int' in declaration of 'i' [-Wimplicit-int]
+  138 |   register i;
+      |            ^
+c2070.c: In function 'LineSum':
+
+
+
+============[ PACKAGE: c2070-0.99-alt1.qa2 ]============
+c2070.c: In function 'LineSum':
+c2070.c:168:12: error: type defaults to 'int' in declaration of 'i' [-Wimplicit-int]
+  168 |   register i = 0;
+      |            ^
+c2070.c: In function 'LexPrint':
+
+
+
+============[ PACKAGE: c2070-0.99-alt1.qa2 ]============
+      | ^
+make: *** [makefile:24: c2070.o] Error 1
+make: Leaving directory '/usr/src/RPM/BUILD/c2070-0.99'
+error: Bad exit status from /usr/src/tmp/rpm-tmp.53029 (%build)
+
+
+
+
+
+============[ PACKAGE: caveexpress-2.5.2-alt1 ]============
+/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/sound/SDLSoundEngine.cpp: In destructor 'virtual SDLSoundEngine::~SDLSoundEngine()':
+/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/sound/SDLSoundEngine.cpp:34:23: error: cannot convert '_Mix_Music*' to 'Mix_Music*'
+   34 |         Mix_FreeMusic(_music);
+      |                       ^~~~~~
+      |                       |
+
+
+
+============[ PACKAGE: caveexpress-2.5.2-alt1 ]============
+/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/sound/SDLSoundEngine.cpp: In member function 'virtual void SDLSoundEngine::close()':
+/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/sound/SDLSoundEngine.cpp:116:23: error: cannot convert '_Mix_Music*' to 'Mix_Music*'
+  116 |         Mix_FreeMusic(_music);
+      |                       ^~~~~~
+      |                       |
+
+
+
+============[ PACKAGE: caveexpress-2.5.2-alt1 ]============
+/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/sound/SDLSoundEngine.cpp: In member function 'virtual int SDLSoundEngine::playMusic(const std::string&, bool)':
+/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/sound/SDLSoundEngine.cpp:149:23: error: cannot convert '_Mix_Music*' to 'Mix_Music*'
+  149 |         Mix_FreeMusic(_music);
+      |                       ^~~~~~
+      |                       |
+
+
+
+============[ PACKAGE: caveexpress-2.5.2-alt1 ]============
+      |        ^~~~~~~~~~
+/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/sound/SDLSoundEngine.cpp:158:32: error: cannot convert 'Mix_Music*' to '_Mix_Music*' in assignment
+  158 |         _music = Mix_LoadMUS_RW(rwops, 1);
+      |                  ~~~~~~~~~~~~~~^~~~~~~~~~
+      |                                |
+
+
+
+============[ PACKAGE: caveexpress-2.5.2-alt1 ]============
+      |                ^~~~~~~~~
+/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/sound/SDLSoundEngine.cpp:167:39: error: cannot convert '_Mix_Music*' to 'Mix_Music*'
+  167 |         const int ret = Mix_PlayMusic(_music, loop ? -1 : 1);
+      |                                       ^~~~~~
+      |                                       |
+
+
+
+
+============[ PACKAGE: cca-spec-classic-0.5.7-alt8 ]============
+In file included from cca.cpp:2:
+../include/cca.h:20:36: error: 'broken' does not name a type
+   20 | #define CCA_NAMESPACE_ENDSEMICOLON broken
+      |                                    ^~~~~~
+../include/cca.h:246:3: note: in expansion of macro 'CCA_NAMESPACE_ENDSEMICOLON'
+
+
+
+============[ PACKAGE: cca-spec-classic-0.5.7-alt8 ]============
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~
+../include/cca.h:20:36: error: 'broken' does not name a type
+   20 | #define CCA_NAMESPACE_ENDSEMICOLON broken
+      |                                    ^~~~~~
+../include/cca.h:247:3: note: in expansion of macro 'CCA_NAMESPACE_ENDSEMICOLON'
+
+
+
+============[ PACKAGE: cca-spec-classic-0.5.7-alt8 ]============
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~
+../include/cca.h:20:36: error: 'broken' does not name a type
+   20 | #define CCA_NAMESPACE_ENDSEMICOLON broken
+      |                                    ^~~~~~
+../include/cca.h:248:3: note: in expansion of macro 'CCA_NAMESPACE_ENDSEMICOLON'
+
+
+
+============[ PACKAGE: cca-spec-classic-0.5.7-alt8 ]============
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~
+make[1]: *** [Makefile:77: cca.lo] Error 1
+make[1]: Leaving directory '/usr/src/RPM/BUILD/cca-spec-classic-0.5.7/cxx/src'
+(cd gov/cca; make JAVAC=/usr/lib/jvm/java/bin/javac JAVADOC=/usr/lib/jvm/java/bin/javadoc)
+make[1]: Entering directory '/usr/src/RPM/BUILD/cca-spec-classic-0.5.7/java'
+
+
+
+============[ PACKAGE: cca-spec-classic-0.5.7-alt8 ]============
+Building tree for all the packages and classes...
+../gov/cca/ports/KeyValuePort.java:23: error: unexpected end tag: </p>
+ * every component with a properties for the frameworks use.</p>
+                                                            ^
+Generating ./gov/cca/Component.html...
+
+
+
+
+============[ PACKAGE: cdogs-sdl-2.0.0-alt2 ]============
+running /usr/bin/cmake -E copy_if_different /usr/src/RPM/BUILD/cdogs-sdl-2.0.0/src/cdogs/yajl/api/yajl_tree.h /usr/src/RPM/BUILD/cdogs-sdl-2.0.0/i586-alt-linux/src/cdogs/yajl/..//include/yajl  2>&1
+CMake Error at src/tests/cbehave/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 has been removed from CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+
+
+
+============[ PACKAGE: cdogs-sdl-2.0.0-alt2 ]============
+
+-- Configuring incomplete, errors occurred!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.68953 (%build)
+
+
+
+
+
+============[ PACKAGE: cdogs-sdl-2.0.0-alt2 ]============
+-- Configuring incomplete, errors occurred!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.68953 (%build)
+
+
+RPM build errors:
+
+
+
+============[ PACKAGE: cdogs-sdl-2.0.0-alt2 ]============
+
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.68953 (%build)
+Command exited with non-zero status 1
+2.48user 0.43system 0:02.77elapsed 105%CPU (0avgtext+0avgdata 19852maxresident)k
+
+
+
+============[ PACKAGE: cdogs-sdl-2.0.0-alt2 ]============
+0inputs+0outputs (0major+40024minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `cdogs-sdl-2.0.0-alt2.src.rpm' failed.
+Command exited with non-zero status 1
+5.21user 3.50system 0:27.51elapsed 31%CPU (0avgtext+0avgdata 131964maxresident)k
+608inputs+0outputs (0major+332239minor)pagefaults 0swaps
+
+
+
+

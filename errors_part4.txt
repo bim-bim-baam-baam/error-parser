@@ -1,0 +1,460 @@
+============[ PACKAGE: dropbear-musl-2025.87-alt2 ]============
+=========================== short test summary info ============================
+FAILED test_channels.py::test_tcpflushout[L-1] - OSError: [Errno 98] Address ...
+FAILED test_channels.py::test_tcpflushout[L-4000] - OSError: [Errno 98] Addre...
+FAILED test_channels.py::test_tcpflushout[L-40000] - OSError: [Errno 98] Addr...
+FAILED test_channels.py::test_tcpflushout[R-1] - OSError: [Errno 98] Address ...
+
+
+
+============[ PACKAGE: dropbear-musl-2025.87-alt2 ]============
+FAILED test_channels.py::test_tcpflushout[L-1] - OSError: [Errno 98] Address ...
+FAILED test_channels.py::test_tcpflushout[L-4000] - OSError: [Errno 98] Addre...
+FAILED test_channels.py::test_tcpflushout[L-40000] - OSError: [Errno 98] Addr...
+FAILED test_channels.py::test_tcpflushout[R-1] - OSError: [Errno 98] Address ...
+FAILED test_channels.py::test_tcpflushout[R-4000] - OSError: [Errno 98] Addre...
+
+
+
+============[ PACKAGE: dropbear-musl-2025.87-alt2 ]============
+FAILED test_channels.py::test_tcpflushout[L-4000] - OSError: [Errno 98] Addre...
+FAILED test_channels.py::test_tcpflushout[L-40000] - OSError: [Errno 98] Addr...
+FAILED test_channels.py::test_tcpflushout[R-1] - OSError: [Errno 98] Address ...
+FAILED test_channels.py::test_tcpflushout[R-4000] - OSError: [Errno 98] Addre...
+FAILED test_channels.py::test_tcpflushout[R-40000] - OSError: [Errno 98] Addr...
+
+
+
+============[ PACKAGE: dropbear-musl-2025.87-alt2 ]============
+FAILED test_channels.py::test_tcpflushout[L-40000] - OSError: [Errno 98] Addr...
+FAILED test_channels.py::test_tcpflushout[R-1] - OSError: [Errno 98] Address ...
+FAILED test_channels.py::test_tcpflushout[R-4000] - OSError: [Errno 98] Addre...
+FAILED test_channels.py::test_tcpflushout[R-40000] - OSError: [Errno 98] Addr...
+======== 6 failed, 42 passed, 3 skipped, 1 xfailed, 19 rerun in 40.87s =========
+
+
+
+============[ PACKAGE: dropbear-musl-2025.87-alt2 ]============
+FAILED test_channels.py::test_tcpflushout[R-1] - OSError: [Errno 98] Address ...
+FAILED test_channels.py::test_tcpflushout[R-4000] - OSError: [Errno 98] Addre...
+FAILED test_channels.py::test_tcpflushout[R-40000] - OSError: [Errno 98] Addr...
+======== 6 failed, 42 passed, 3 skipped, 1 xfailed, 19 rerun in 40.87s =========
+37.21user 3.95system 0:44.95elapsed 91%CPU (0avgtext+0avgdata 269992maxresident)k
+
+
+
+
+============[ PACKAGE: duperemove-0.14.1-alt1 ]============
+run_dedupe.c: In function 'add_shared_extents_post':
+run_dedupe.c:161:44: error: passing argument 4 of 'fiemap_count_shared' from incompatible pointer type [-Wincompatible-pointer-types]
+  161 |                                            &bytes);
+      |                                            ^~~~~~
+      |                                            |
+
+
+
+============[ PACKAGE: duperemove-0.14.1-alt1 ]============
+      |                                                                   ~~~~~~~~^~~~~~
+make: *** [<builtin>: run_dedupe.o] Error 1
+make: Leaving directory '/usr/src/RPM/BUILD/duperemove-0.14.1'
+make: *** Waiting for unfinished jobs....
+make: Entering directory '/usr/src/RPM/BUILD/duperemove-0.14.1'
+
+
+
+============[ PACKAGE: duperemove-0.14.1-alt1 ]============
+make: Leaving directory '/usr/src/RPM/BUILD/duperemove-0.14.1'
+error: Bad exit status from /usr/src/tmp/rpm-tmp.40998 (%build)
+
+
+RPM build errors:
+
+
+
+============[ PACKAGE: duperemove-0.14.1-alt1 ]============
+
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.40998 (%build)
+Command exited with non-zero status 1
+5.35user 0.51system 0:02.51elapsed 233%CPU (0avgtext+0avgdata 41272maxresident)k
+
+
+
+============[ PACKAGE: duperemove-0.14.1-alt1 ]============
+0inputs+0outputs (0major+107033minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `duperemove-0.14.1-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+7.29user 2.71system 0:19.20elapsed 52%CPU (0avgtext+0avgdata 136220maxresident)k
+3272inputs+0outputs (0major+267005minor)pagefaults 0swaps
+
+
+
+
+============[ PACKAGE: dwgrep-0.4-alt3 ]============
+../libzwerg/dwgrep-gendoc: undefined symbol: zw_vocabulary_core
+gmake[3]: *** [doc/CMakeFiles/GenerateDocs.dir/build.make:71: doc/CMakeFiles/GenerateDocs] Error 255
+gmake[3]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/i586-alt-linux'
+gmake[2]: *** [CMakeFiles/Makefile2:235: doc/CMakeFiles/GenerateDocs.dir/all] Error 2
+gmake[1]: *** [CMakeFiles/Makefile2:371: doc/CMakeFiles/doc.dir/rule] Error 2
+
+
+
+============[ PACKAGE: dwgrep-0.4-alt3 ]============
+gmake[3]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/i586-alt-linux'
+gmake[2]: *** [CMakeFiles/Makefile2:235: doc/CMakeFiles/GenerateDocs.dir/all] Error 2
+gmake[1]: *** [CMakeFiles/Makefile2:371: doc/CMakeFiles/doc.dir/rule] Error 2
+gmake: *** [Makefile:244: doc] Error 2
+
+
+
+
+============[ PACKAGE: dwgrep-0.4-alt3 ]============
+gmake[2]: *** [CMakeFiles/Makefile2:235: doc/CMakeFiles/GenerateDocs.dir/all] Error 2
+gmake[1]: *** [CMakeFiles/Makefile2:371: doc/CMakeFiles/doc.dir/rule] Error 2
+gmake: *** [Makefile:244: doc] Error 2
+
+error: Bad exit status from /usr/src/tmp/rpm-tmp.14663 (%build)
+
+
+
+============[ PACKAGE: dwgrep-0.4-alt3 ]============
+gmake[1]: *** [CMakeFiles/Makefile2:371: doc/CMakeFiles/doc.dir/rule] Error 2
+gmake: *** [Makefile:244: doc] Error 2
+
+error: Bad exit status from /usr/src/tmp/rpm-tmp.14663 (%build)
+
+
+
+
+============[ PACKAGE: dwgrep-0.4-alt3 ]============
+
+error: Bad exit status from /usr/src/tmp/rpm-tmp.14663 (%build)
+
+
+RPM build errors:
+
+
+
+
+============[ PACKAGE: ebook-tools-0.2.2-alt3 ]============
+-- Detecting C compile features - done
+CMake Error at CMakeLists.txt:3 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 has been removed from CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+
+
+
+============[ PACKAGE: ebook-tools-0.2.2-alt3 ]============
+
+-- Configuring incomplete, errors occurred!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.48045 (%build)
+
+
+
+
+
+============[ PACKAGE: ebook-tools-0.2.2-alt3 ]============
+-- Configuring incomplete, errors occurred!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.48045 (%build)
+
+
+RPM build errors:
+
+
+
+============[ PACKAGE: ebook-tools-0.2.2-alt3 ]============
+
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.48045 (%build)
+Command exited with non-zero status 1
+0.34user 0.26system 0:01.01elapsed 59%CPU (0avgtext+0avgdata 20788maxresident)k
+
+
+
+============[ PACKAGE: ebook-tools-0.2.2-alt3 ]============
+0inputs+0outputs (0major+38062minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `ebook-tools-0.2.2-alt3.src.rpm' failed.
+Command exited with non-zero status 1
+5.62user 4.02system 1:00.64elapsed 15%CPU (0avgtext+0avgdata 133212maxresident)k
+9384inputs+0outputs (0major+315710minor)pagefaults 0swaps
+
+
+
+
+============[ PACKAGE: eigen-1.0.5-alt1 ]============
+-- Detecting CXX compile features - done
+CMake Error in CMakeLists.txt:
+  No cmake_minimum_required command is present.  A line of code such as
+
+    cmake_minimum_required(VERSION 4.0)
+
+
+
+============[ PACKAGE: eigen-1.0.5-alt1 ]============
+
+-- Configuring incomplete, errors occurred!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.17473 (%build)
+
+
+
+
+
+============[ PACKAGE: eigen-1.0.5-alt1 ]============
+-- Configuring incomplete, errors occurred!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.17473 (%build)
+
+
+RPM build errors:
+
+
+
+============[ PACKAGE: eigen-1.0.5-alt1 ]============
+
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.17473 (%build)
+Command exited with non-zero status 1
+0.22user 0.22system 0:00.43elapsed 102%CPU (0avgtext+0avgdata 18772maxresident)k
+
+
+
+============[ PACKAGE: eigen-1.0.5-alt1 ]============
+0inputs+0outputs (0major+42047minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `eigen-1.0.5-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+3.44user 2.69system 0:11.26elapsed 54%CPU (0avgtext+0avgdata 133840maxresident)k
+0inputs+0outputs (0major+221182minor)pagefaults 0swaps
+
+
+
+
+============[ PACKAGE: eigen2-2.0.17-alt3 ]============
+-- Detecting CXX compile features - done
+CMake Error at CMakeLists.txt:2 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 has been removed from CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+
+
+
+============[ PACKAGE: eigen2-2.0.17-alt3 ]============
+
+-- Configuring incomplete, errors occurred!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.88522 (%build)
+
+
+
+
+
+============[ PACKAGE: eigen2-2.0.17-alt3 ]============
+-- Configuring incomplete, errors occurred!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.88522 (%build)
+
+
+RPM build errors:
+
+
+
+============[ PACKAGE: eigen2-2.0.17-alt3 ]============
+
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.88522 (%build)
+Command exited with non-zero status 1
+0.23user 0.23system 0:00.46elapsed 101%CPU (0avgtext+0avgdata 18708maxresident)k
+
+
+
+============[ PACKAGE: eigen2-2.0.17-alt3 ]============
+0inputs+0outputs (0major+42490minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `eigen2-2.0.17-alt3.src.rpm' failed.
+Command exited with non-zero status 1
+3.49user 2.62system 0:14.96elapsed 40%CPU (0avgtext+0avgdata 133392maxresident)k
+65488inputs+0outputs (0major+216271minor)pagefaults 0swaps
+
+
+
+
+============[ PACKAGE: faketime-0.2.8-alt1 ]============
+plugin.c: In function 'ftime':
+plugin.c:173:66: error: 'struct timeb' has no member named 'rpl_time'
+  173 |                 debug_printf("ftime: %lu -> ", (unsigned long) tp->time);
+      |                                                                  ^~
+plugin.c:176:27: error: 'struct timeb' has no member named 'rpl_time'
+
+
+
+============[ PACKAGE: faketime-0.2.8-alt1 ]============
+      |                                                                  ^~
+plugin.c:176:27: error: 'struct timeb' has no member named 'rpl_time'
+  176 |                         tp->time += time_off;
+      |                           ^~
+plugin.c:179:27: error: 'struct timeb' has no member named 'rpl_time'
+
+
+
+============[ PACKAGE: faketime-0.2.8-alt1 ]============
+      |                           ^~
+plugin.c:179:27: error: 'struct timeb' has no member named 'rpl_time'
+  179 |                         tp->time = time_abs;
+      |                           ^~
+plugin.c:182:57: error: 'struct timeb' has no member named 'rpl_time'
+
+
+
+============[ PACKAGE: faketime-0.2.8-alt1 ]============
+      |                           ^~
+plugin.c:182:57: error: 'struct timeb' has no member named 'rpl_time'
+  182 |                 debug_printf("%lu\n", (unsigned long) tp->time);
+      |                                                         ^~
+make[1]: *** [Makefile:1323: plugin.lo] Error 1
+
+
+
+============[ PACKAGE: faketime-0.2.8-alt1 ]============
+      |                                                         ^~
+make[1]: *** [Makefile:1323: plugin.lo] Error 1
+make[1]: Leaving directory '/usr/src/RPM/BUILD/faketime-0.2.8'
+make[1]: *** Waiting for unfinished jobs....
+make[1]: Entering directory '/usr/src/RPM/BUILD/faketime-0.2.8'
+
+
+
+
+============[ PACKAGE: fcitx5-sayura-5.1.0-alt1_1 ]============
+Problem opening /proc/meminfo
+CMake Error at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 has been removed from CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+
+
+
+============[ PACKAGE: fcitx5-sayura-5.1.0-alt1_1 ]============
+
+-- Configuring incomplete, errors occurred!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.72696 (%build)
+
+
+
+
+
+============[ PACKAGE: fcitx5-sayura-5.1.0-alt1_1 ]============
+-- Configuring incomplete, errors occurred!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.72696 (%build)
+
+
+RPM build errors:
+
+
+
+============[ PACKAGE: fcitx5-sayura-5.1.0-alt1_1 ]============
+
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.72696 (%build)
+Command exited with non-zero status 1
+0.10user 0.08system 0:00.39elapsed 47%CPU (0avgtext+0avgdata 15704maxresident)k
+
+
+
+============[ PACKAGE: fcitx5-sayura-5.1.0-alt1_1 ]============
+0inputs+0outputs (0major+10750minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `fcitx5-sayura-5.1.0-alt1_1.src.rpm' failed.
+Command exited with non-zero status 1
+8.55user 5.59system 0:36.69elapsed 38%CPU (0avgtext+0avgdata 133384maxresident)k
+8680inputs+0outputs (0major+328636minor)pagefaults 0swaps
+
+
+
+
+============[ PACKAGE: fcitx5-skk-5.1.0-alt1_1 ]============
+Problem opening /proc/meminfo
+CMake Error at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 has been removed from CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+
+
+
+============[ PACKAGE: fcitx5-skk-5.1.0-alt1_1 ]============
+
+-- Configuring incomplete, errors occurred!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.77935 (%build)
+
+
+
+
+
+============[ PACKAGE: fcitx5-skk-5.1.0-alt1_1 ]============
+-- Configuring incomplete, errors occurred!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.77935 (%build)
+
+
+RPM build errors:
+
+
+
+============[ PACKAGE: fcitx5-skk-5.1.0-alt1_1 ]============
+
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.77935 (%build)
+Command exited with non-zero status 1
+0.07user 0.06system 0:00.13elapsed 104%CPU (0avgtext+0avgdata 16628maxresident)k
+
+
+
+============[ PACKAGE: fcitx5-skk-5.1.0-alt1_1 ]============
+0inputs+0outputs (0major+11369minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `fcitx5-skk-5.1.0-alt1_1.src.rpm' failed.
+Command exited with non-zero status 1
+6.31user 4.03system 0:30.35elapsed 34%CPU (0avgtext+0avgdata 132376maxresident)k
+3792inputs+0outputs (0major+380566minor)pagefaults 0swaps
+
+
+
+
+============[ PACKAGE: flow-tools-ng-0.68.5-alt5 ]============
+aclyacc.c: In function 'yyparse':
+aclyacc.c:1232:16: error: implicit declaration of function 'yylex' [-Wimplicit-function-declaration]
+ 1232 |       yychar = yylex ();
+      |                ^~~~~
+aclyacc.c:1772:7: error: implicit declaration of function 'yyerror'; did you mean 'YYerror'? [-Wimplicit-function-declaration]
+
+
+
+============[ PACKAGE: flow-tools-ng-0.68.5-alt5 ]============
+      |                ^~~~~
+aclyacc.c:1772:7: error: implicit declaration of function 'yyerror'; did you mean 'YYerror'? [-Wimplicit-function-declaration]
+ 1772 |       yyerror (YY_("syntax error"));
+      |       ^~~~~~~
+      |       YYerror
+
+
+
+============[ PACKAGE: flow-tools-ng-0.68.5-alt5 ]============
+aclyacc.c:1772:7: error: implicit declaration of function 'yyerror'; did you mean 'YYerror'? [-Wimplicit-function-declaration]
+ 1772 |       yyerror (YY_("syntax error"));
+      |       ^~~~~~~
+      |       YYerror
+make[2]: *** [Makefile:677: aclyacc.o] Error 1
+
+
+
+============[ PACKAGE: flow-tools-ng-0.68.5-alt5 ]============
+      |       YYerror
+make[2]: *** [Makefile:677: aclyacc.o] Error 1
+make[2]: Leaving directory '/usr/src/RPM/BUILD/flow-tools-ng-0.68.5/src'
+make[2]: *** Waiting for unfinished jobs....
+make[2]: Entering directory '/usr/src/RPM/BUILD/flow-tools-ng-0.68.5/src'
+
+
+
+============[ PACKAGE: flow-tools-ng-0.68.5-alt5 ]============
+make[2]: Leaving directory '/usr/src/RPM/BUILD/flow-tools-ng-0.68.5/src'
+make[1]: *** [Makefile:465: all] Error 2
+make: *** [Makefile:401: all-recursive] Error 1
+error: Bad exit status from /usr/src/tmp/rpm-tmp.35570 (%build)
+
+
+
+
+
